@@ -10,7 +10,7 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-29 14:44",
+    updated: "2026-10-29 14:56",
     note: "1/31、1/2、2/2、2/3 住宿已訂；2/4 舞鶴仍短名單。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
@@ -48,6 +48,7 @@ window.TRIP = {
   lodging: [
     {
       night: "31/1",
+      placeId: "osaka-night",
       name: "完整旅居（Airbnb）",
       area: "西成・旭（Nishinari Asahi）",
       address: "大阪府大阪市西成区旭1丁目3-28／1-chōme-3-28 Asahi, Nishinari Ward, Osaka 557-0032",
@@ -65,6 +66,7 @@ window.TRIP = {
     },
     {
       night: "1/2",
+      placeId: "yamamotoya",
       name: "城崎溫泉 山本屋（Yamamotoya）",
       area: "城崎溫泉・湯島",
       address: "669-6101 兵庫県豊岡市城崎町湯島643",
@@ -82,6 +84,7 @@ window.TRIP = {
     },
     {
       night: "2/2",
+      placeId: "rakuten-stay-riverside",
       name: "Rakuten STAY TERRACE 城崎リバーサイド【C】",
       area: "城崎町上山",
       address: "兵庫県豊岡市城崎町上山1414-4（669-6116）",
@@ -97,6 +100,7 @@ window.TRIP = {
     },
     {
       night: "3/2",
+      placeId: "funaya-inn-kyo",
       name: "Funaya Inn -kyo-（伊根舟屋）整棟",
       area: "伊根",
       confirm: "Res 4030-4074-1104｜Sunny Sau Shun Leung｜3 adults Driving",
@@ -111,6 +115,7 @@ window.TRIP = {
     },
     {
       night: "4/2",
+      placeId: "maizuru",
       name: "舞鶴 Airbnb ★4.96（短名單）",
       area: "舞鶴",
       confirm: "短名單／TBD｜可泊 4 車",
@@ -362,6 +367,35 @@ window.TRIP = {
       ]
     },
     {
+      id: "rakuten-stay-riverside",
+      name: "Rakuten STAY TERRACE 城崎リバーサイド",
+      nameJa: "楽天ステイテラス 城崎リバーサイド",
+      day: 3,
+      lat: 35.5902,
+      lng: 134.8018, // approx riverside near Genbudo / Kamiyama 1414-4
+      image: "images/genbudo.jpg",
+      tags: ["住宿", "已訂"],
+      intro: "已訂 overnight（Airbnb HM424YER9F）。城崎町上山1414-4，近 JR 玄武洞／玄武洞公園對岸河畔；溫泉客房、有廚房可煮食。",
+      tips: "CI 2/2 15:00 → CO 2/3 10:00｜確認 HM424YER9F｜地址 豊岡市城崎町上山1414-4（669-6116）｜免費取消至 1/28 15:00（當地）｜餘款 HK$2,982.14 於 1/20。",
+      detail: "Rakuten STAY TERRACE 城崎リバーサイド【C】。近玄武洞一帶河畔，唔喺溫泉街中心——自駕方便。溫泉客房（2大床+4單人）、有廚房。",
+      history: "樂天 STAY TERRACE 系列溫泉町周邊公寓式住宿，適合團體自駕 overnight。",
+      origin: "山本屋後第二晚改住河畔 STAY，方便翌日轉天橋立／伊根，又近玄武洞。",
+      stories: "豊岡半日（鸛・鞄・洞）完，返上山 CI；可煮食輕鬆。翌日 CO 10:00 轉丹後。",
+      highlights: [
+        "已訂 HM424YER9F｜上山1414-4",
+        "近玄武洞／JR 玄武洞一帶",
+        "有廚房可煮食",
+        "CI 15:00 → CO 10:00"
+      ],
+      mapsQuery: "豊岡市城崎町上山1414-4",
+      links: [
+        { label: "Rakuten STAY 城崎", url: "https://stay.rakuten.co.jp/terrace/kinosaki/", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a186424be801b96", kind: "drive" },
+        { label: "Google Maps 地址", url: "https://maps.google.com/maps?q=35.5902,134.8018", kind: "official" },
+        { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
+      ]
+    },
+    {
       id: "takeda",
       name: "竹田城跡（冬天不能登城）",
       nameJa: "竹田城跡",
@@ -423,6 +457,35 @@ window.TRIP = {
       mapsQuery: "伊根の舟屋",
       links: [
         { label: "伊根觀光官方", url: "https://www.ine-kankou.jp/", kind: "official" }
+      ]
+    },
+    {
+      id: "funaya-inn-kyo",
+      name: "Funaya Inn -kyo-（伊根）整棟",
+      nameJa: "Funaya Inn -kyo-",
+      day: 4,
+      lat: 35.6749398,
+      lng: 135.2894367, // Ine funaya area approx — exact inn pin unknown
+      image: "images/ine-funaya.jpg",
+      tags: ["住宿", "已訂"],
+      intro: "已訂伊根舟屋整棟（Res 4030-4074-1104）。地圖針用伊根舟屋一帶座標（約 35.6749, 135.2894）；到達按鐘，ETA 遲 30 分要通知。",
+      tips: "CI 2/3 15:00–17:00（約15:00到）→ CO 2/4 10:00｜無餐／禁止煮食｜到達按鐘｜遲到通知 090-7096-4630／funayakyo@gmail.com｜約至 1/20 免費取消。",
+      detail: "Funaya Inn -kyo- 整棟（Japanese/Western）。伊根灣舟屋區 overnight；座標以伊根の舟屋一帶為準（整棟 exact pin 未知）。¥59,400 tax-in 已網上付。",
+      history: "伊根舟屋一樓泊船、二樓住人；部分改建成整棟旅宿。",
+      origin: "天橋立＋伊根一日後原地 overnight，第二日轉舞鶴唔使趕。",
+      stories: "影完舟屋就近 CI；無廚房——晚餐要喺宮津／伊根食定。",
+      highlights: [
+        "已訂整棟｜Res 4030-4074-1104",
+        "伊根舟屋一帶（地圖為區域座標）",
+        "無餐／禁止煮食",
+        "到達按鐘｜遲到要通知"
+      ],
+      mapsQuery: "伊根の舟屋",
+      links: [
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a1865ca2a687f52", kind: "drive" },
+        { label: "伊根觀光", url: "https://www.ine-kankou.jp/", kind: "official" },
+        { label: "Google Maps（伊根一帶）", url: "https://maps.google.com/maps?q=35.6749398,135.2894367", kind: "official" },
+        { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     },
     {
@@ -539,7 +602,7 @@ window.TRIP = {
         { time: "午", text: "豊岡鞄／袋物街（可選）＋午餐", placeId: "bag-street" },
         { time: "午後", text: "玄武洞公園", placeId: "genbudo" },
         { time: "參考", text: "⚠️ 竹田城跡 1/4–2/28 冬季不能登城——今次唔安排", placeId: "takeda" },
-        { time: "晚", text: "Rakuten STAY TERRACE 城崎リバーサイド【C】CI（已訂 HM424YER9F｜上山1414-4｜15:00）", placeId: "kinosaki" }
+        { time: "晚", text: "Rakuten STAY TERRACE 城崎リバーサイド【C】CI（已訂 HM424YER9F｜上山1414-4｜15:00）", placeId: "rakuten-stay-riverside" }
       ],
       transport: "豊岡周邊短距離自駕；半日揀 2–3 點即可。"
     },
@@ -554,7 +617,7 @@ window.TRIP = {
         { time: "上午", text: "天橋立（笠松展望／沙嘴）", placeId: "amanohashidate" },
         { time: "午", text: "午餐（宮津／橋立一帶）", placeId: "amanohashidate" },
         { time: "午後", text: "伊根の舟屋（慢駛影相）", placeId: "ine" },
-        { time: "晚", text: "Funaya Inn -kyo- CI（已訂 Res 4030-4074-1104｜約15:00到｜無餐／禁止煮食）", placeId: "ine" }
+        { time: "晚", text: "Funaya Inn -kyo- CI（已訂 Res 4030-4074-1104｜約15:00到｜無餐／禁止煮食）", placeId: "funaya-inn-kyo" }
       ],
       transport: "海岸道路冬日提早天黑；留 buffer，唔好趕夜路。"
     },

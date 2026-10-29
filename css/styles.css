@@ -280,9 +280,22 @@ button { font-family: inherit; cursor: pointer; }
   border: 1px solid rgba(61,90,115,0.08);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
+.lodge-card-map {
+  cursor: pointer;
+}
+.lodge-card-map:focus-visible {
+  outline: 2px solid var(--warm);
+  outline-offset: 2px;
+}
 .lodge-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow);
+}
+.lodge-map-hint {
+  font-size: 0.78rem;
+  color: var(--warm-deep);
+  margin: 0.55rem 0 0.35rem;
+  font-weight: 600;
 }
 .lodge-night {
   font-size: 0.72rem;

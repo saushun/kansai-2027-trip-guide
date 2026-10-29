@@ -142,12 +142,21 @@
         badge = '<span class="badge badge-tbd">待確認</span>';
       else badge = '<span class="badge badge-tbd">待定</span>';
       const card = document.createElement("article");
-      card.className = "lodge-card reveal";
+      card.className = "lodge-card reveal" + (l.placeId ? " lodge-card-map" : "");
+      if (l.placeId) {
+        card.dataset.placeId = l.placeId;
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-label", `喺地圖睇 ${l.name} 位置`);
+      }
       const warn = l.warn
         ? `<p class="lodge-warn">${l.warn}</p>`
         : "";
       const cancelTag = l.freeCancel
         ? `<span class="tag tag-cancel">${l.freeCancel}</span>`
+        : "";
+      const mapHint = l.placeId
+        ? `<p class="lodge-map-hint">撳卡睇地圖位置 →</p>`
         : "";
       card.innerHTML = `
         <div class="lodge-night">${l.night}</div>
@@ -157,6 +166,7 @@
         <div class="lodge-confirm">${l.confirm}</div>
         ${warn}
         <p class="lodge-note">${l.note}</p>
+        ${mapHint}
         ${renderLinksRow(l.links, { className: "place-links lodge-links" })}`;
       lodgeEl.appendChild(card);
     });
@@ -483,7 +493,7 @@
   }
 
   function highlightPlace(id) {
-    $$(".place-card").forEach((c) => {
+    $$(".place-card, .lodge-card").forEach((c) => {
       c.style.outline = c.dataset.placeId === id ? "2px solid var(--warm)" : "";
     });
   }
@@ -541,6 +551,14 @@
     const card = e.target.closest(".place-card");
     if (card && !e.target.closest("a, button")) {
       openPlaceModal(card.dataset.placeId);
+      return;
+    }
+    const lodge = e.target.closest(".lodge-card[data-place-id]");
+    if (lodge && !e.target.closest("a, button, .place-links, .lodge-links")) {
+      const id = lodge.dataset.placeId;
+      if (!id) return;
+      // same path as .place-card → openPlaceModal (highlight + marker context)
+      openPlaceModal(id);
     }
   });
 
@@ -550,6 +568,15 @@
       return;
     }
     if ((e.key === "Enter" || e.key === " ") && e.target.classList?.contains("place-card")) {
+      e.preventDefault();
+      openPlaceModal(e.target.dataset.placeId);
+      return;
+    }
+    if (
+      (e.key === "Enter" || e.key === " ") &&
+      e.target.classList?.contains("lodge-card") &&
+      e.target.dataset.placeId
+    ) {
       e.preventDefault();
       openPlaceModal(e.target.dataset.placeId);
     }
