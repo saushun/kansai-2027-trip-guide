@@ -331,6 +331,22 @@ button { font-family: inherit; cursor: pointer; }
 .badge-warn { background: #f5e6c8; color: #7a5a20; }
 .badge-tbd { background: #e8e0f0; color: #5a3d7a; }
 
+.lodge-cancel-row {
+  margin: 0.15rem 0 0.55rem;
+}
+.tag.tag-cancel {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  background: #fde9c8;
+  color: #8a4b08;
+  border: 1px solid #e8b86a;
+  letter-spacing: 0.01em;
+  margin-left: 0;
+}
+
 /* —— Day tabs —— */
 .day-tabs {
   display: flex; gap: 0.4rem;

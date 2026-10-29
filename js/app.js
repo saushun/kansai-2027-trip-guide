@@ -146,9 +146,13 @@
       const warn = l.warn
         ? `<p class="lodge-warn">${l.warn}</p>`
         : "";
+      const cancelTag = l.freeCancel
+        ? `<span class="tag tag-cancel">${l.freeCancel}</span>`
+        : "";
       card.innerHTML = `
         <div class="lodge-night">${l.night}</div>
         <h3>${l.name}${badge}</h3>
+        ${cancelTag ? `<div class="lodge-cancel-row">${cancelTag}</div>` : ""}
         <div class="lodge-area">${l.area}${l.address ? " · " + l.address : ""}</div>
         <div class="lodge-confirm">${l.confirm}</div>
         ${warn}

@@ -10,8 +10,8 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-29 12:22",
-    note: "1/31 大阪 Airbnb（HME24S4TXJ・西成旭）同 1/2 城崎山本屋已訂；2/2 起其餘住宿多數仍係 shortlist／TBD。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
+    updated: "2026-10-29 14:40",
+    note: "1/31、1/2、2/2、2/3 住宿已訂；2/4 舞鶴仍短名單。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
       back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋同伴" },
@@ -53,7 +53,8 @@ window.TRIP = {
       address: "大阪府大阪市西成区旭1丁目3-28／1-chōme-3-28 Asahi, Nishinari Ward, Osaka 557-0032",
       confirm: "已訂 HME24S4TXJ｜Host シュウ（Superhost）｜3 成人",
       status: "booked",
-      note: "CI 2027-01-31 16:00 → CO 02-01 12:00（正午，非 10:00）｜場內免費住宅車庫 1 位（KICKS OK）｜湯里花園町駅／Osaka Metro 花園町（Y17）徒歩約 1 分｜餘款 HK$1,341.96 於 2027-01-18 Mastercard *0136 扣｜免費取消至 2027-01-26 16:00（當地）｜住客登記（日本規定）｜卓Sir UO862 ~20:20 抵 KIX → 西成會合｜舊 HMEFA5DBKE（守口）已取消",
+      freeCancel: "免費取消至 1/26 16:00（當地）",
+      note: "CI 16:00→CO 12:00；場內免費車庫1位（KICKS OK）；湯里花園町徒歩1分；餘款 1/18 HK$1,341.96",
       links: [
         { label: "Airbnb 房源", url: "https://www.airbnb.com/rooms/1725116940136021450", kind: "official" },
         { label: "Airbnb 訂單 HME24S4TXJ", url: "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HME24S4TXJ", kind: "official" },
@@ -69,7 +70,8 @@ window.TRIP = {
       address: "669-6101 兵庫県豊岡市城崎町湯島643",
       confirm: "已訂 Rakuten 21315099225634／客房 22315097279732｜3 成人",
       status: "booked",
-      note: "CI 2027-02-01（一）15:00–18:00 → CO 02-02（二）10:00｜豪華套房 日式客房・禁煙・可望庭園小型半露天浴池 16.2m²｜方案＜附但馬牛日式牛排＞【季節會席】一泊二食（早＋晚）｜總額 HK$4,425.68（¥89,100）｜入浴税 ¥360 現地付｜Mastercard *0136｜免費取消至 2027-01-28 23:59 JST｜Tel 0796-32-2114｜成個行程唯一一晚溫泉旅館",
+      freeCancel: "免費取消至 1/28 23:59 JST",
+      note: "CI 15:00–18:00→CO 10:00；豪華套房半露天；一泊二食但馬牛會席；入浴税¥360現地",
       links: [
         { label: "山本屋官方", url: "https://www.kinosaki.com/", kind: "official" },
         { label: "Rakuten 訂單列表", url: "https://travel.rakuten.com/HKG/zh-HK/hotel_reservation/list/?category=UPCOMING", kind: "official" },
@@ -80,26 +82,31 @@ window.TRIP = {
     },
     {
       night: "2/2",
-      name: "豊岡／城崎 Airbnb",
-      area: "豊岡 or 城崎",
-      confirm: "短名單／TBD",
-      status: "shortlist",
-      note: "山本屋 CO 後 overnight｜整套房・3 人・有泊車優先（Airbnb 偏好）｜Toyooka 半日後｜未訂",
+      name: "Rakuten STAY TERRACE 城崎リバーサイド【C】",
+      area: "城崎町上山",
+      address: "兵庫県豊岡市城崎町上山1414-4（669-6116）",
+      confirm: "已訂 Airbnb HM424YER9F｜3 成人｜溫泉客房 2大床+4單人",
+      status: "booked",
+      freeCancel: "免費取消至 1/28 15:00（當地）",
+      note: "CI 2/2 15:00→CO 2/3 10:00；有廚房可煮食；餘款 HK$2,982.14 於 1/20 MC*0136",
       links: [
+        { label: "Rakuten STAY 城崎", url: "https://stay.rakuten.co.jp/terrace/kinosaki/", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a186424be801b96", kind: "drive" },
         { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     },
     {
       night: "3/2",
-      name: "宮津／伊根 Airbnb",
-      area: "宮津 or 伊根",
-      confirm: "短名單／TBD",
-      status: "shortlist",
-      note: "天橋立＋舟屋當日 overnight｜整套房・泊車｜未訂",
+      name: "Funaya Inn -kyo-（伊根舟屋）整棟",
+      area: "伊根",
+      confirm: "Res 4030-4074-1104｜Sunny Sau Shun Leung｜3 adults Driving",
+      status: "booked",
+      freeCancel: "約至 1/20 免費；其後 13日前30%／7日前50%／當日100%",
+      note: "CI 2/3 15:00–17:00（約15:00到）→CO 2/4 10:00；Japanese/Western；無餐／禁止煮食；¥59,400 tax-in 已網上付；到達按鐘；ETA遲30分要通知（090-7096-4630／funayakyo@gmail.com）",
       links: [
-        { label: "天橋立官方", url: "https://www.amanohashidate.jp/", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a1865ca2a687f52", kind: "drive" },
         { label: "伊根觀光", url: "https://www.ine-kankou.jp/", kind: "official" },
-        { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
+        { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     },
     {
@@ -108,7 +115,8 @@ window.TRIP = {
       area: "舞鶴",
       confirm: "短名單／TBD｜可泊 4 車",
       status: "shortlist",
-      note: "評價 ★4.96・可泊 4 車｜赤れんがパーク附近優先｜未訂",
+      freeCancel: "未訂",
+      note: "★4.96・可泊4車；赤れんがパーク附近優先",
       links: [
         { label: "舞鶴觀光", url: "https://maizuru-kanko.net/", kind: "official" },
         { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
@@ -524,14 +532,14 @@ window.TRIP = {
       title: "豊岡半日",
       subtitle: "白鸛・鞄・玄武洞",
       hero: "images/stork-park.jpg",
-      summary: "山本屋 CO 10:00 → 豊岡半日：郷公園、鞄街、玄武洞。竹田城冬季關閉不能登。夜：Airbnb 豊岡／城崎（短名單）。",
+      summary: "山本屋 CO 10:00 → 豊岡半日：郷公園、鞄街、玄武洞。竹田城冬季關閉不能登。夜：Rakuten STAY TERRACE 城崎リバーサイド CI（已訂）。",
       timeline: [
         { time: "朝", text: "山本屋 CO 10:00（含早餐）→ 豊岡方向", placeId: "yamamotoya" },
         { time: "上午", text: "コウノトリの郷公園", placeId: "stork" },
         { time: "午", text: "豊岡鞄／袋物街（可選）＋午餐", placeId: "bag-street" },
         { time: "午後", text: "玄武洞公園", placeId: "genbudo" },
         { time: "參考", text: "⚠️ 竹田城跡 1/4–2/28 冬季不能登城——今次唔安排", placeId: "takeda" },
-        { time: "晚", text: "Airbnb 豊岡／城崎（短名單・未訂｜偏好整套房＋泊車）", placeId: null }
+        { time: "晚", text: "Rakuten STAY TERRACE 城崎リバーサイド【C】CI（已訂 HM424YER9F｜上山1414-4｜15:00）", placeId: "kinosaki" }
       ],
       transport: "豊岡周邊短距離自駕；半日揀 2–3 點即可。"
     },
@@ -541,12 +549,12 @@ window.TRIP = {
       title: "天橋立 × 伊根舟屋",
       subtitle: "京都海主菜",
       hero: "images/amanohashidate.jpg",
-      summary: "天橋立展望＋沙嘴，轉伊根舟屋。夜：宮津／伊根 Airbnb。",
+      summary: "天橋立展望＋沙嘴，轉伊根舟屋。夜：Funaya Inn -kyo-（伊根舟屋・已訂）。",
       timeline: [
         { time: "上午", text: "天橋立（笠松展望／沙嘴）", placeId: "amanohashidate" },
         { time: "午", text: "午餐（宮津／橋立一帶）", placeId: "amanohashidate" },
         { time: "午後", text: "伊根の舟屋（慢駛影相）", placeId: "ine" },
-        { time: "晚", text: "宮津／伊根 Airbnb（短名單・未訂）｜天黑前返程", placeId: "ine" }
+        { time: "晚", text: "Funaya Inn -kyo- CI（已訂 Res 4030-4074-1104｜約15:00到｜無餐／禁止煮食）", placeId: "ine" }
       ],
       transport: "海岸道路冬日提早天黑；留 buffer，唔好趕夜路。"
     },
