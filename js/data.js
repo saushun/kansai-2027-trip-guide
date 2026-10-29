@@ -10,8 +10,8 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（1/31 晚大阪會合）"],
-    updated: "2026-10-28 16:20",
-    note: "住宿多數仍係 shortlist／TBD，未訂；機票同租車已訂。出發前請再確認營業時間同路況。",
+    updated: "2026-10-29 09:57",
+    note: "1/31 大阪 Airbnb 已訂（HMEFA5DBKE）；其餘住宿多數仍係 shortlist／TBD。機票同租車已訂。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1" },
       back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2" },
@@ -40,12 +40,18 @@ window.TRIP = {
   lodging: [
     {
       night: "31/1",
-      name: "大阪 Airbnb（整套房）",
-      area: "大阪・市區",
-      confirm: "短名單／TBD",
-      status: "shortlist",
-      note: "整套房・3 人・有泊車優先｜卓Sir 約 20:xx 會合｜未訂",
+      name: "設計師古民宅／桑拿（Airbnb）",
+      area: "守口・千林（Senbayashi）",
+      address: "大阪府守口市滝井西町1丁目5-7",
+      confirm: "已訂 HMEFA5DBKE｜Host Shogo｜3 成人",
+      status: "booked",
+      warn: "⚠️ 泊車：敷地僅限輕自動車（軽自動車／kei）1 台——Nissan KICKS 唔係 kei，請用附近咪錶／coin parking。門前路 14:00–21:00 行人單車專用，車輛唔可通行／進出停車場；驾车請 14:00 前或 21:00 後，否則附近停好行入。",
+      note: "CI 2027-01-31 16:00 → CO 02-01 10:00｜安靜時段 21:00–08:00｜室內禁煙｜入住前須住客登記｜餘款約 HK$768.33 於 2027-01-18 Mastercard 扣｜免費取消至 2027-01-26 16:00（當地）｜卓Sir ~20:xx 會合",
       links: [
+        { label: "Airbnb 房源", url: "https://www.airbnb.com/rooms/1704649090874263707", kind: "official" },
+        { label: "Airbnb 訂單 HMEFA5DBKE", url: "https://www.airbnb.com/trips/v1", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a182d0c84b9c2e3", kind: "drive" },
+        { label: "Gmail 主人歡迎", url: "https://mail.google.com/mail/u/0/#inbox/1a182d8d026ec7f0", kind: "drive" },
         { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     },
@@ -147,22 +153,33 @@ window.TRIP = {
     },
     {
       id: "osaka-night",
-      name: "大阪夜・會合卓Sir",
-      nameJa: "大阪",
+      name: "守口 Airbnb・會合卓Sir",
+      nameJa: "守口市滝井西町／千林",
       day: 1,
-      lat: 34.7054194,
-      lng: 135.4983721,
+      lat: 34.7258,
+      lng: 135.5565, // approx Takii Nishimachi 1-5-7 near Keihan Senbayashi
       image: "images/osaka-night.jpg",
-      tags: ["住宿", "會合", "短名單"],
-      intro: "取車後入大阪 overnight。卓Sir 約晚上 20:xx 會合——輕鬆食飯、唔趕。",
-      tips: "Airbnb 整套房短名單（未訂）｜要有泊車｜死黨三人第一晚。",
-      detail: "第一晚留大阪，等齊人再北上。住宿仍係 shortlist，重點係整套房＋泊車同方便會合。",
-      history: "梅田／北區係大阪交通同商業中心，適合 overnight 同翌日上高速公路。",
-      origin: "選大阪 overnight 係因為機場取車後日短，唔好第一日硬衝城崎。",
-      stories: "節奏：落地 → 取車 → check-in → 等卓Sir → 晚飯。放鬆起步。",
-      highlights: ["卓Sir ~20:xx 會合", "Airbnb 短名單未訂", "翌日北上城崎"],
-      mapsQuery: "Osaka Umeda",
+      tags: ["住宿", "會合", "已訂"],
+      intro: "取車後入守口・千林 overnight（設計師古民宅／桑拿）。卓Sir 約晚上 20:xx 會合——輕鬆食飯、唔趕。",
+      tips: "⚠️ 泊車極重要：敷地只收輕自動車（kei）；KICKS 請附近 coin parking。門前路 14:00–21:00 封車——16:00 CI 時段唔可以駕車出入；附近停好行入，或等 21:00 後。CI 16:00／CO 翌日 10:00｜確認碼 HMEFA5DBKE｜Host Shogo｜安靜 21:00–08:00｜室內禁煙｜須預先住客登記。",
+      detail: "已訂 Airbnb「設計師古民宅／桑拿」（HMEFA5DBKE）。地址：大阪府守口市滝井西町1丁目5-7（京阪千林徒歩約 2 分）。第一晚留大阪側等齊人，翌日北上城崎。",
+      history: "守口・千林一帶係京阪沿線下町，千林商店街有約 200 舖，戰前大阪街景氛圍；方便翌日上高速北上。",
+      origin: "選大阪 overnight 係因為機場取車後日短，唔好第一日硬衝城崎；千林／守口有古民宅＋桑拿，近商店街。",
+      stories: "節奏：落地 → 15:00 取車 → 附近 coin parking → 行入 CI → 等卓Sir → 晚飯。記住 14–21 點門前唔俾車。",
+      highlights: [
+        "⚠️ 泊車僅限 kei；KICKS 用附近咪錶",
+        "⚠️ 門前路 14:00–21:00 封車（進出停車場都唔得）",
+        "CI 16:00 → CO 10:00｜HMEFA5DBKE｜Host Shogo",
+        "安靜 21:00–08:00｜室內禁煙｜住客登記",
+        "卓Sir ~20:xx 會合｜翌日北上城崎"
+      ],
+      mapsQuery: "大阪府守口市滝井西町1丁目5-7",
       links: [
+        { label: "Airbnb 房源", url: "https://www.airbnb.com/rooms/1704649090874263707", kind: "official" },
+        { label: "Airbnb 訂單", url: "https://www.airbnb.com/trips/v1", kind: "official" },
+        { label: "Google Maps 地址", url: "https://maps.google.com/maps?q=%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%AE%88%E5%8F%A3%E5%B8%82%E6%BB%9D%E4%BA%95%E8%A5%BF%E7%94%BA1%E4%B8%81%E7%9B%AE5-7", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a182d0c84b9c2e3", kind: "drive" },
+        { label: "Gmail 主人歡迎", url: "https://mail.google.com/mail/u/0/#inbox/1a182d8d026ec7f0", kind: "drive" },
         { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     },
@@ -450,18 +467,18 @@ window.TRIP = {
     {
       id: 1,
       date: "31/1（日）",
-      title: "香港 → KIX → 大阪",
-      subtitle: "落地取車，等卓Sir",
+      title: "香港 → KIX → 守口／千林",
+      subtitle: "落地取車，Airbnb CI，等卓Sir",
       hero: "images/kix.jpg",
-      summary: "UO686 13:05 抵 KIX → 15:00 Nissan 取車 → 大阪 Airbnb overnight → 晚上會合卓Sir。",
+      summary: "UO686 13:05 抵 KIX → 15:00 Nissan 取車 → 守口 Airbnb（HMEFA5DBKE）overnight → 晚上會合卓Sir。⚠️ KICKS 用附近 coin parking；門前 14:00–21:00 封車。",
       timeline: [
         { time: "08:30", text: "HKG 起飛 UO686（PNR T2H9VR｜HKD 3401｜20kg）", placeId: null },
         { time: "13:05", text: "抵 KIX → 過關拎行李", placeId: "kix" },
         { time: "15:00", text: "Nissan 關西機場取車（確認 26102504206｜KICKS 4WD＋雪胎＋ETC）", placeId: "nissan" },
-        { time: "傍晚", text: "大阪 Airbnb check-in（短名單／未訂｜要泊車）", placeId: "osaka-night" },
-        { time: "~20:xx", text: "會合卓Sir｜晚飯輕鬆", placeId: "osaka-night" }
+        { time: "16:00", text: "⚠️ 守口 Airbnb CI（HMEFA5DBKE｜滝井西町1-5-7｜敷地僅 kei 泊；KICKS→附近咪錶｜14–21 點門前封車）", placeId: "osaka-night" },
+        { time: "~20:xx", text: "會合卓Sir｜晚飯輕鬆（安靜時段 21:00 起）", placeId: "osaka-night" }
       ],
-      transport: "機場取車後入大阪市區；第一日唔北上，留力。"
+      transport: "機場取車後去守口・千林；第一日唔北上。KICKS 唔入敷地泊車——附近 coin parking 後行入。"
     },
     {
       id: 2,
@@ -471,7 +488,7 @@ window.TRIP = {
       hero: "images/kinosaki.jpg",
       summary: "北上城崎；途中 SA 換司機。可選篠山城下町或福知山城＋燒肉（二選一）。夜：古まん短名單。",
       timeline: [
-        { time: "朝", text: "大阪出發 → 高速公路北上（SA 換司機）", placeId: "osaka-night" },
+        { time: "朝", text: "守口 Airbnb CO 10:00 → 高速公路北上（可選篠山城跡｜SA 加西／西紀下り換司機）", placeId: "osaka-night" },
         { time: "途中可選", text: "丹波篠山城下町 或 福知山城（擇一）", placeId: "sasayama" },
         { time: "午後", text: "抵達城崎溫泉｜溫泉街散步", placeId: "kinosaki" },
         { time: "晚", text: "溫泉旅館（建議古まん／JTB 短名單・未訂）→ 外湯／夕食", placeId: "komans" }
@@ -556,7 +573,7 @@ window.TRIP = {
 
   routeOverview: [
     { id: "kix", label: "KIX" },
-    { id: "osaka-night", label: "大阪" },
+    { id: "osaka-night", label: "守口／千林" },
     { id: "kinosaki", label: "城崎" },
     { id: "stork", label: "豊岡" },
     { id: "amanohashidate", label: "天橋立" },

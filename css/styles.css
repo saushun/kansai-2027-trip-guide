@@ -308,6 +308,17 @@ button { font-family: inherit; cursor: pointer; }
   margin-bottom: 0.5rem;
 }
 .lodge-note { font-size: 0.8rem; color: var(--fuji-blue); margin: 0; }
+.lodge-warn {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #7a2e12;
+  background: #fde8d8;
+  border: 1px solid #e8a06a;
+  border-radius: 10px;
+  padding: 0.65rem 0.8rem;
+  margin: 0.35rem 0 0.55rem;
+  line-height: 1.45;
+}
 .badge {
   display: inline-block;
   font-size: 0.68rem;

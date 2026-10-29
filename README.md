@@ -72,4 +72,4 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-28 16:20（Asia/Hong_Kong）— lodging still shortlist; itinerary may change.
+2026-10-29 09:57（Asia/Hong_Kong）— Night-1 Osaka Airbnb booked (HMEFA5DBKE, Moriguchi/Senbayashi); other lodging still shortlist.

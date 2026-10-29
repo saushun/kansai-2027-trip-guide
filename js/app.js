@@ -143,11 +143,15 @@
       else badge = '<span class="badge badge-tbd">待定</span>';
       const card = document.createElement("article");
       card.className = "lodge-card reveal";
+      const warn = l.warn
+        ? `<p class="lodge-warn">${l.warn}</p>`
+        : "";
       card.innerHTML = `
         <div class="lodge-night">${l.night}</div>
         <h3>${l.name}${badge}</h3>
         <div class="lodge-area">${l.area}${l.address ? " · " + l.address : ""}</div>
         <div class="lodge-confirm">${l.confirm}</div>
+        ${warn}
         <p class="lodge-note">${l.note}</p>
         ${renderLinksRow(l.links, { className: "place-links lodge-links" })}`;
       lodgeEl.appendChild(card);
