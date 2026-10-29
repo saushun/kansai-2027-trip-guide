@@ -167,12 +167,21 @@
     const metaLinks = renderLinksRow((T.meta && T.meta.links) || [], { className: "place-links" });
     const carPlace = placeById("nissan");
     const carLinks = renderLinksRow((carPlace && carPlace.links) || [], { className: "place-links" });
+    const ck = f && f.cheuk;
+    const cheukHtml = ck
+      ? `<hr style="border:none;border-top:1px solid rgba(0,0,0,0.08);margin:0.75rem 0" />
+        <p><span class="badge badge-warn">${ck.label || "卓Sir 擬搭／確認中"}</span></p>
+        <p><strong>去程</strong> ${ck.out.date} ${ck.out.code}　${ck.out.from} → ${ck.out.to}${ck.out.duration ? "（" + ck.out.duration + "）" : ""}</p>
+        <p><strong>回程</strong> ${ck.back.date} ${ck.back.route || "KIX→HKG"}${ck.back.note ? "｜" + ck.back.note : ""}</p>
+        ${ck.priceNote ? `<p style="font-size:0.8rem;opacity:0.85">${ck.priceNote}</p>` : ""}`
+      : "";
     infoEl.innerHTML = `
       <div class="info-card reveal">
         <h3>✈️ 機票 HK Express</h3>
-        <p>PNR <code>${f.out.pnr}</code></p>
+        <p><strong>Sunny＋同伴</strong> PNR <code>${f.out.pnr}</code></p>
         <p><strong>去程</strong> ${f.out.date} ${f.out.code}　${f.out.from} → ${f.out.to}</p>
         <p><strong>回程</strong> ${f.back.date} ${f.back.code}　${f.back.from} → ${f.back.to}</p>
+        ${cheukHtml}
         ${flightLinks}
       </div>
       <div class="info-card reveal">

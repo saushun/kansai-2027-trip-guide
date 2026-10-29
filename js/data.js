@@ -9,12 +9,19 @@ window.TRIP = {
     dates: "2027-01-31（日）— 02-06（六）",
     days: 7,
     nights: 5,
-    travelers: ["Sunny", "同伴", "卓Sir（1/31 晚大阪會合）"],
-    updated: "2026-10-29 11:25",
-    note: "1/31 大阪 Airbnb（HMEFA5DBKE）同 1/2 城崎山本屋已訂；2/2 起其餘住宿多數仍係 shortlist／TBD。機票同租車已訂。出發前請再確認營業時間同路況。",
+    travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 守口會合）"],
+    updated: "2026-10-29 12:03",
+    note: "1/31 大阪 Airbnb（HMEFA5DBKE）同 1/2 城崎山本屋已訂；2/2 起其餘住宿多數仍係 shortlist／TBD。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
-      out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1" },
-      back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2" },
+      out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
+      back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋同伴" },
+      cheuk: {
+        status: "pending",
+        label: "卓Sir 擬搭／確認中",
+        out: { code: "UO862", from: "HKG 15:45 T2", to: "KIX 20:20 T1", date: "31/1", duration: "~3h35" },
+        back: { date: "6/2", route: "KIX→HKG", note: "回程航班號未見於截圖；窗口同日 2/6" },
+        priceNote: "選擇頁約 HKD 3,071（未必已出票）"
+      },
       links: [
         { label: "HK Express 機票確認 Doc", url: "https://docs.google.com/document/d/1Vc6RYFxl9GAjuCvLGEg_v4EpkNr2erpCofBijbGhWww/edit?usp=drivesdk", kind: "drive" },
         { label: "機票 Drive 資料夾", url: "https://drive.google.com/drive/folders/1eT94OFD9wHAKkJTrb27f8l9-Z5zQ59Sx", kind: "drive" }
@@ -47,7 +54,7 @@ window.TRIP = {
       confirm: "已訂 HMEFA5DBKE｜Host Shogo｜3 成人",
       status: "booked",
       warn: "⚠️ 泊車：敷地僅限輕自動車（軽自動車／kei）1 台——Nissan KICKS 唔係 kei，請用附近咪錶／coin parking。門前路 14:00–21:00 行人單車專用，車輛唔可通行／進出停車場；驾车請 14:00 前或 21:00 後，否則附近停好行入。",
-      note: "CI 2027-01-31 16:00 → CO 02-01 10:00｜安靜時段 21:00–08:00｜室內禁煙｜入住前須住客登記｜餘款約 HK$768.33 於 2027-01-18 Mastercard 扣｜免費取消至 2027-01-26 16:00（當地）｜卓Sir ~20:xx 會合",
+      note: "CI 2027-01-31 16:00 → CO 02-01 10:00｜安靜時段 21:00–08:00｜室內禁煙｜入住前須住客登記｜餘款約 HK$768.33 於 2027-01-18 Mastercard 扣｜免費取消至 2027-01-26 16:00（當地）｜卓Sir UO862 ~20:20 抵 KIX → 會合",
       links: [
         { label: "Airbnb 房源", url: "https://www.airbnb.com/rooms/1704649090874263707", kind: "official" },
         { label: "Airbnb 訂單 HMEFA5DBKE", url: "https://www.airbnb.com/trips/v1", kind: "official" },
@@ -120,13 +127,13 @@ window.TRIP = {
       lng: 135.2225230,
       image: "images/kix.jpg",
       tags: ["機場"],
-      intro: "旅程起點。HK Express UO686 13:05 抵 KIX，過關拎行李後去 Nissan 取車（15:00）。",
-      tips: "PNR T2H9VR｜20kg checked｜取車前預留 buffer 過關同拎行李；回程 UO689 20:15，5/2 已還車，6/2 由大阪去機場。",
+      intro: "旅程起點。Sunny UO686 13:05 抵 KIX，過關拎行李後去 Nissan 取車（15:00）。卓Sir 同日 UO862 20:20 抵達（擬搭／確認中）。",
+      tips: "Sunny PNR T2H9VR｜20kg checked｜取車前預留 buffer 過關同拎行李；卓Sir UO862 HKG 15:45 T2→KIX 20:20 T1（擬搭／確認中）。回程 Sunny UO689 20:15；5/2 已還車，6/2 由大阪去機場。",
       detail: "關西國際機場（KIX）建喺大阪灣人工島，係關西主要國際門戶。今次去程同回程都用 HK Express，流程相對集中。",
       history: "KIX 1994 年開港，係日本最早完全建喺海上嘅大型國際機場之一，服務大阪・京都・神戸一帶。",
       origin: "選 KIX 係因為租車喺機場取、之後北上城崎同丹後，動線順。",
       stories: "落地後唔使急住入市區——15:00 取車前搞掂 SIM／換滙／廁所就得。",
-      highlights: ["UO686 13:05 抵達", "15:00 Nissan 取車", "回程 UO689 20:15"],
+      highlights: ["Sunny UO686 13:05 抵達", "15:00 Nissan 取車", "卓Sir UO862 ~20:20 抵達（擬搭／確認中）", "回程 Sunny UO689 20:15"],
       mapsQuery: "Kansai International Airport",
       links: [
         { label: "機場官方", url: "https://www.kansai-airport.or.jp/", kind: "official" },
@@ -164,18 +171,18 @@ window.TRIP = {
       lng: 135.5565, // approx Takii Nishimachi 1-5-7 near Keihan Senbayashi
       image: "images/osaka-night.jpg",
       tags: ["住宿", "會合", "已訂"],
-      intro: "取車後入守口・千林 overnight（設計師古民宅／桑拿）。卓Sir 約晚上 20:xx 會合——輕鬆食飯、唔趕。",
+      intro: "取車後入守口・千林 overnight（設計師古民宅／桑拿）。卓Sir UO862 ~20:20 抵 KIX 後會合——輕鬆食飯、唔趕。",
       tips: "⚠️ 泊車極重要：敷地只收輕自動車（kei）；KICKS 請附近 coin parking。門前路 14:00–21:00 封車——16:00 CI 時段唔可以駕車出入；附近停好行入，或等 21:00 後。CI 16:00／CO 翌日 10:00｜確認碼 HMEFA5DBKE｜Host Shogo｜安靜 21:00–08:00｜室內禁煙｜須預先住客登記。",
       detail: "已訂 Airbnb「設計師古民宅／桑拿」（HMEFA5DBKE）。地址：大阪府守口市滝井西町1丁目5-7（京阪千林徒歩約 2 分）。第一晚留大阪側等齊人，翌日北上城崎。",
       history: "守口・千林一帶係京阪沿線下町，千林商店街有約 200 舖，戰前大阪街景氛圍；方便翌日上高速北上。",
       origin: "選大阪 overnight 係因為機場取車後日短，唔好第一日硬衝城崎；千林／守口有古民宅＋桑拿，近商店街。",
-      stories: "節奏：落地 → 15:00 取車 → 附近 coin parking → 行入 CI → 等卓Sir → 晚飯。記住 14–21 點門前唔俾車。",
+      stories: "節奏：Sunny 落地 → 15:00 取車 → 附近 coin parking → 行入 CI → 卓Sir ~20:20 抵後會合 → 晚飯。記住 14–21 點門前唔俾車。",
       highlights: [
         "⚠️ 泊車僅限 kei；KICKS 用附近咪錶",
         "⚠️ 門前路 14:00–21:00 封車（進出停車場都唔得）",
         "CI 16:00 → CO 10:00｜HMEFA5DBKE｜Host Shogo",
         "安靜 21:00–08:00｜室內禁煙｜住客登記",
-        "卓Sir ~20:xx 會合｜翌日北上城崎"
+        "卓Sir UO862 ~20:20 抵 KIX → 會合｜翌日北上城崎"
       ],
       mapsQuery: "大阪府守口市滝井西町1丁目5-7",
       links: [
@@ -463,7 +470,7 @@ window.TRIP = {
       lng: 135.2225230,
       image: "images/kix.jpg",
       tags: ["機場"],
-      intro: "UO689 20:15 KIX→HKG 23:55。預留去機場同 bag drop buffer。",
+      intro: "Sunny UO689 20:15 KIX→HKG 23:55。卓Sir 回程窗口同日 2/6（航班號確認中）。預留去機場同 bag drop buffer。",
       tips: "PNR T2H9VR｜目標傍晚到機場｜20kg checked。",
       detail: "回程同一 PNR。無自駕，用機場巴士／電車／計程車視住宿位置。",
       history: "KIX 夜機常見於廉價航空排班。",
@@ -483,15 +490,16 @@ window.TRIP = {
       id: 1,
       date: "31/1（日）",
       title: "香港 → KIX → 守口／千林",
-      subtitle: "落地取車，Airbnb CI，等卓Sir",
+      subtitle: "落地取車，Airbnb CI，卓Sir ~20:20 會合",
       hero: "images/kix.jpg",
-      summary: "UO686 13:05 抵 KIX → 15:00 Nissan 取車 → 守口 Airbnb（HMEFA5DBKE）overnight → 晚上會合卓Sir。⚠️ KICKS 用附近 coin parking；門前 14:00–21:00 封車。",
+      summary: "Sunny UO686 13:05 抵 KIX → 15:00 Nissan 取車 → 守口 Airbnb（HMEFA5DBKE）CI → 卓Sir UO862 ~20:20 抵 KIX 後晚間會合。⚠️ KICKS 用附近 coin parking；門前 14:00–21:00 封車。",
       timeline: [
-        { time: "08:30", text: "HKG 起飛 UO686（PNR T2H9VR｜HKD 3401｜20kg）", placeId: null },
-        { time: "13:05", text: "抵 KIX → 過關拎行李", placeId: "kix" },
+        { time: "08:30", text: "Sunny＋同伴 HKG 起飛 UO686（PNR T2H9VR｜HKD 3401｜20kg）", placeId: null },
+        { time: "13:05", text: "Sunny 抵 KIX → 過關拎行李", placeId: "kix" },
         { time: "15:00", text: "Nissan 關西機場取車（確認 26102504206｜KICKS 4WD＋雪胎＋ETC）", placeId: "nissan" },
+        { time: "15:45", text: "卓Sir HKG T2 起飛 UO862（擬搭／確認中｜選擇頁約 HKD 3,071｜~3h35）", placeId: null },
         { time: "16:00", text: "⚠️ 守口 Airbnb CI（HMEFA5DBKE｜滝井西町1-5-7｜敷地僅 kei 泊；KICKS→附近咪錶｜14–21 點門前封車）", placeId: "osaka-night" },
-        { time: "~20:xx", text: "會合卓Sir｜晚飯輕鬆（安靜時段 21:00 起）", placeId: "osaka-night" }
+        { time: "20:20", text: "卓Sir 抵 KIX T1（UO862）→ 前往守口 Airbnb 會合｜晚飯輕鬆（安靜時段 21:00 起）", placeId: "osaka-night" }
       ],
       transport: "機場取車後去守口・千林；第一日唔北上。KICKS 唔入敷地泊車——附近 coin parking 後行入。"
     },
@@ -577,7 +585,7 @@ window.TRIP = {
       title: "KIX → 香港",
       subtitle: "夜機回家",
       hero: "images/kix.jpg",
-      summary: "無自駕日。UO689 20:15 起飛，23:55 抵港。",
+      summary: "無自駕日。Sunny UO689 20:15 起飛，23:55 抵港。卓Sir 回程窗口同日 2/6 KIX→HKG（航班號確認中）。",
       timeline: [
         { time: "日", text: "大阪 chill／買手信（視前晚住宿）", placeId: "umeda-return" },
         { time: "傍晚", text: "出發去 KIX｜預留 bag drop buffer", placeId: "kix-depart" },
