@@ -38,7 +38,7 @@ window.TRIP = {
     },
     lodgingDriveFolder: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B",
     links: [
-      { label: "行程 Google Sheet｜死黨三人遊2027", url: "https://docs.google.com/spreadsheets/d/1sg0W7inw-9oe8LzRNskqSnfggU4lA_YXYqhOidp6rJo/edit", kind: "drive" },
+      { label: "行程 Google Sheet｜死黨三人遊2027", url: "https://docs.google.com/spreadsheets/d/1zLaiENfg2PG68l9srUGO1KSYbNbqy-aPlkOWKO1WHt4/edit", kind: "drive" },
       { label: "行程總 Drive 資料夾", url: "https://drive.google.com/drive/folders/1XGVNEAhR3YwMkaBcTWBInnj0TSSYQxhn", kind: "drive" },
       { label: "租車確認 Doc", url: "https://docs.google.com/document/d/1FdTPcwj0uKyostIZuNc2sTtQ-L-Aa9aNyIEZ-66p61E/edit?usp=drivesdk", kind: "drive" },
       { label: "京都海／Sea of Kyoto DMO", url: "https://www.uminokyoto.jp/", kind: "official" }
