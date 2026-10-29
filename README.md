@@ -48,7 +48,7 @@ kansai-2027-trip-guide/
 | 機票 Sunny HK Express UO686/UO689 PNR **T2H9VR** | ✅ 已訂 |
 | 機票 卓Sir HK Express **UO862**（HKG 15:45→KIX 20:20；回程 2/6 窗口） | ⚠️ **擬搭／確認中**（選擇頁約 HKD 3,071） |
 | 租車 Nissan **26102504206**（KICKS 4WD+雪胎+ETC） | ✅ 已訂（舊單 26102504145 已取消） |
-| 住宿 1/31 大阪 Airbnb **HMEFA5DBKE**（守口・千林） | ✅ 已訂 |
+| 住宿 1/31 大阪 Airbnb **HME24S4TXJ**（西成・旭｜湯里花園町駅） | ✅ 已訂（舊 HMEFA5DBKE 守口已取消） |
 | 住宿 1/2 城崎 **山本屋**（Rakuten 21315099225634） | ✅ 已訂（一泊二食・但馬牛會席） |
 | 住宿 2/2 起（豊岡／城崎 Airbnb、宮津伊根、舞鶴） | ⚠️ **短名單／TBD，未訂** |
 | 唯一溫泉旅館夜 | **1/2→2/2 晨** 城崎山本屋（已訂） |
@@ -76,4 +76,4 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-29 12:03（Asia/Hong_Kong）— 卓Sir outbound UO862 1/31 15:45–20:20（擬搭／確認中）；Day1 meetup ~20:20 Moriguchi Airbnb；Sunny UO686/UO689 unchanged.
+2026-10-29 12:22（Asia/Hong_Kong）— Night-1 改訂 Airbnb HME24S4TXJ（西成区旭1-3-28｜Host シュウ｜場內免費車庫 KICKS OK｜CI 16:00→CO 12:00）；舊 HMEFA5DBKE 守口／千林已取消；Day1 meetup ~20:20 改去西成；卓Sir UO862／Sunny UO686/UO689 unchanged.
