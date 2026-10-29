@@ -54,6 +54,7 @@ kansai-2027-trip-guide/
 
 Drive：
 
+- 行程 Google Sheet（死黨三人遊2027｜KIX 自駕 1月31日–2月6日）：https://docs.google.com/spreadsheets/d/1aY-Gqx5fjOzGcAUfu0smwOtpCB30rBvYRvj0FmS39vw/edit
 - 行程總夾：https://drive.google.com/drive/folders/1XGVNEAhR3YwMkaBcTWBInnj0TSSYQxhn
 - 機票：https://drive.google.com/drive/folders/1eT94OFD9wHAKkJTrb27f8l9-Z5zQ59Sx
 - 住宿：https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B
