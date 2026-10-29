@@ -10,8 +10,8 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（1/31 晚大阪會合）"],
-    updated: "2026-10-29 09:57",
-    note: "1/31 大阪 Airbnb 已訂（HMEFA5DBKE）；其餘住宿多數仍係 shortlist／TBD。機票同租車已訂。出發前請再確認營業時間同路況。",
+    updated: "2026-10-29 11:25",
+    note: "1/31 大阪 Airbnb（HMEFA5DBKE）同 1/2 城崎山本屋已訂；2/2 起其餘住宿多數仍係 shortlist／TBD。機票同租車已訂。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1" },
       back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2" },
@@ -56,14 +56,17 @@ window.TRIP = {
       ]
     },
     {
-      night: "1/2→2/2",
-      name: "城崎溫泉旅館・古まん（建議）",
-      area: "城崎溫泉",
-      address: "豊岡市城崎町湯島",
-      confirm: "短名單／JTB｜未訂",
-      status: "shortlist",
-      note: "成個行程唯一一晚溫泉旅館｜建議千年の湯 古まん（JTB）｜其餘夜晚用 Airbnb",
+      night: "1/2",
+      name: "城崎溫泉 山本屋（Yamamotoya）",
+      area: "城崎溫泉・湯島",
+      address: "669-6101 兵庫県豊岡市城崎町湯島643",
+      confirm: "已訂 Rakuten 21315099225634／客房 22315097279732｜3 成人",
+      status: "booked",
+      note: "CI 2027-02-01（一）15:00–18:00 → CO 02-02（二）10:00｜豪華套房 日式客房・禁煙・可望庭園小型半露天浴池 16.2m²｜方案＜附但馬牛日式牛排＞【季節會席】一泊二食（早＋晚）｜總額 HK$4,425.68（¥89,100）｜入浴税 ¥360 現地付｜Mastercard *0136｜免費取消至 2027-01-28 23:59 JST｜Tel 0796-32-2114｜成個行程唯一一晚溫泉旅館",
       links: [
+        { label: "山本屋官方", url: "https://www.kinosaki.com/", kind: "official" },
+        { label: "Rakuten 訂單列表", url: "https://travel.rakuten.com/HKG/zh-HK/hotel_reservation/list/?category=UPCOMING", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a185a881ec45ede", kind: "drive" },
         { label: "城崎溫泉官方", url: "https://kinosaki-spa.gr.jp/", kind: "official" },
         { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
@@ -74,7 +77,7 @@ window.TRIP = {
       area: "豊岡 or 城崎",
       confirm: "短名單／TBD",
       status: "shortlist",
-      note: "整套房・3 人・有泊車｜Toyooka 半日後 overnight｜未訂",
+      note: "山本屋 CO 後 overnight｜整套房・3 人・有泊車優先（Airbnb 偏好）｜Toyooka 半日後｜未訂",
       links: [
         { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
@@ -234,37 +237,48 @@ window.TRIP = {
       lng: 134.8137043,
       image: "images/kinosaki.jpg",
       tags: ["溫泉", "重點"],
-      intro: "今次唯一溫泉旅館夜。浴衣行七湯、食蟹／溫泉街晚飯——冬天夜景特別靜。",
-      tips: "建議古まん（JTB 短名單，未訂）｜外湯手形視 bundle｜雪地行人小心。",
-      detail: "城崎溫泉係兵庫代表溫泉街，大溪川兩岸旅館同外湯構成可步行嘅溫泉町。今次只安排一晚 ryokan，其餘用 Airbnb。",
+      intro: "今次唯一溫泉旅館夜（山本屋已訂）。浴衣行七湯；晚餐會席有但馬牛——午餐優先食蟹。",
+      tips: "山本屋 CI 15:00–18:00｜一泊二食（晚＝但馬牛季節會席）→ 午餐請食蟹｜外湯手形視 bundle｜雪地行人小心。",
+      detail: "城崎溫泉係兵庫代表溫泉街，大溪川兩岸旅館同外湯構成可步行嘅溫泉町。今次只安排一晚 ryokan（山本屋），其餘夜晚用 Airbnb。",
       history: "開湯傳說可追溯古代；近代以文學同外湯文化聞名，地震後重建令街道統一感強。",
       origin: "選城崎係因為可步行、溫泉密度高、又唔使衝進過多雪山。",
-      stories: "死黨三人唯一「正式溫泉夜」——浸完湯行街最啱節奏。",
-      highlights: ["唯一 ryokan 夜", "外湯＋溫泉街", "古まん短名單"],
+      stories: "死黨三人唯一「正式溫泉夜」——浸完湯行街最啱節奏。午餐蟹、晚餐但馬牛，唔撞餐。",
+      highlights: ["唯一 ryokan 夜（山本屋已訂）", "外湯＋溫泉街", "午餐蟹／晚餐但馬牛"],
       mapsQuery: "城崎温泉",
       links: [
         { label: "城崎溫泉官方", url: "https://kinosaki-spa.gr.jp/", kind: "official" },
+        { label: "山本屋官方", url: "https://www.kinosaki.com/", kind: "official" },
         { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     },
     {
-      id: "komans",
-      name: "千年の湯 古まん（建議）",
-      nameJa: "千年の湯 古まん",
+      id: "yamamotoya",
+      name: "城崎溫泉 山本屋",
+      nameJa: "城崎温泉 山本屋",
       day: 2,
-      lat: 35.6249617,
-      lng: 134.8053881,
+      lat: 35.6245,
+      lng: 134.8128, // approx willow street / near Ichi-no-Yu; address Yushima 643
       image: "images/hero-kinosaki.jpg",
-      tags: ["住宿", "溫泉", "短名單"],
-      intro: "城崎溫泉街內建議旅館。短名單／JTB，尚未預訂——確認前唔好當已訂。",
-      tips: "狀態：shortlist｜未訂｜訂前核對 3 人・餐食・泊車。",
-      detail: "古まん（千年の湯）喺城崎溫泉街，係短名單上嘅建議 onsen ryokan。本站標示為未訂，避免同已確認機票／租車混淆。",
-      history: "城崎多家老舖旅館以「外湯＋宿」模式經營；古まん屬溫泉街內選項之一。",
-      origin: "建議呢間係因為位置同口碑；最終以實際空房同預算為準。",
-      stories: "訂妥後記得更新本站 lodging 狀態同 Drive 確認檔。",
-      highlights: ["短名單未訂", "唯一 onsen 夜", "訂前核對 3 人"],
-      mapsQuery: "千年の湯 古まん 城崎",
+      tags: ["住宿", "溫泉", "已訂"],
+      intro: "已訂唯一 onsen 夜。柳並木中心老舖；豪華套房日式・半露天風呂；一泊二食含但馬牛季節會席。",
+      tips: "CI 15:00–18:00／CO 10:00｜Rakuten 訂單 21315099225634・客房 22315097279732｜Tel 0796-32-2114｜入浴税 ¥360 現地｜免費取消至 2027-01-28 23:59 JST｜晚餐已含 → 午餐優先蟹。",
+      detail: "城崎溫泉山本屋（Yamamotoya），地址 兵庫県豊岡市城崎町湯島643。Rakuten Travel 已確認：豪華套房 日式客房・禁煙・可望庭園小型半露天浴池（16.2m²）；方案＜附但馬牛日式牛排＞【季節會席】包早＋晚；3 成人；HK$4,425.68（¥89,100）。",
+      history: "創業約 350 年老舖，位處城崎柳並木中心、一の湯附近；外湯巡禮動線方便。",
+      origin: "選作唯一溫泉旅館夜——位置、半露天風呂房型同但馬牛會席都合死黨三人節奏。",
+      stories: "抵達後先 CI／寄行李；午餐蟹、晚飯會席但馬牛。翌日 10:00 CO 再去豊岡半日。",
+      highlights: [
+        "已訂｜CI 15:00–18:00 → CO 10:00",
+        "豪華套房＋半露天風呂",
+        "一泊二食・但馬牛季節會席",
+        "午餐蟹優先（晚餐已有牛）",
+        "訂單 21315099225634／客房 22315097279732"
+      ],
+      mapsQuery: "城崎温泉 山本屋 湯島643",
       links: [
+        { label: "山本屋官方", url: "https://www.kinosaki.com/", kind: "official" },
+        { label: "Rakuten 訂單列表", url: "https://travel.rakuten.com/HKG/zh-HK/hotel_reservation/list/?category=UPCOMING", kind: "official" },
+        { label: "Google Maps 地址", url: "https://maps.google.com/maps?q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E8%B1%8A%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%B4%8E%E7%94%BA%E6%B9%AF%E5%B3%B6643", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a185a881ec45ede", kind: "drive" },
         { label: "城崎溫泉官方", url: "https://kinosaki-spa.gr.jp/", kind: "official" },
         { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
@@ -483,17 +497,18 @@ window.TRIP = {
     {
       id: 2,
       date: "1/2（一）",
-      title: "大阪 → 城崎溫泉",
-      subtitle: "唯一 onsen ryokan 夜",
+      title: "大阪 → 城崎溫泉・山本屋",
+      subtitle: "唯一 onsen ryokan 夜（已訂）",
       hero: "images/kinosaki.jpg",
-      summary: "北上城崎；途中 SA 換司機。可選篠山城下町或福知山城＋燒肉（二選一）。夜：古まん短名單。",
+      summary: "北上城崎；途中可選篠山（城下町）停。山本屋 CI 15:00–18:00（已訂）。晚餐會席有但馬牛 → 午餐優先食蟹。",
       timeline: [
-        { time: "朝", text: "守口 Airbnb CO 10:00 → 高速公路北上（可選篠山城跡｜SA 加西／西紀下り換司機）", placeId: "osaka-night" },
+        { time: "朝", text: "守口 Airbnb CO 10:00 → 高速公路北上（可選篠山城下町｜SA 換司機）", placeId: "osaka-night" },
         { time: "途中可選", text: "丹波篠山城下町 或 福知山城（擇一）", placeId: "sasayama" },
-        { time: "午後", text: "抵達城崎溫泉｜溫泉街散步", placeId: "kinosaki" },
-        { time: "晚", text: "溫泉旅館（建議古まん／JTB 短名單・未訂）→ 外湯／夕食", placeId: "komans" }
+        { time: "午", text: "抵達城崎前後｜午餐優先食蟹（晚會席有但馬牛）", placeId: "kinosaki" },
+        { time: "15:00–18:00", text: "山本屋 CI（湯島643｜豪華套房半露天風呂｜訂單 21315099225634）", placeId: "yamamotoya" },
+        { time: "晚", text: "一泊二食夕食：但馬牛季節會席｜外湯巡禮", placeId: "yamamotoya" }
       ],
-      transport: "大阪→城崎約 3–3.5 小時視休息｜要 ETC｜避開過多雪山路｜雪胎已備。"
+      transport: "大阪→城崎約 3–3.5 小時視休息｜要 ETC｜避開過多雪山路｜雪胎已備｜目標 CI 窗內抵達。"
     },
     {
       id: 3,
@@ -501,14 +516,14 @@ window.TRIP = {
       title: "豊岡半日",
       subtitle: "白鸛・鞄・玄武洞",
       hero: "images/stork-park.jpg",
-      summary: "城崎／豊岡半日：郷公園、鞄街、玄武洞。竹田城冬季關閉不能登。夜：Airbnb 豊岡／城崎。",
+      summary: "山本屋 CO 10:00 → 豊岡半日：郷公園、鞄街、玄武洞。竹田城冬季關閉不能登。夜：Airbnb 豊岡／城崎（短名單）。",
       timeline: [
-        { time: "朝", text: "溫泉旅館 CO → 豊岡方向", placeId: "kinosaki" },
+        { time: "朝", text: "山本屋 CO 10:00（含早餐）→ 豊岡方向", placeId: "yamamotoya" },
         { time: "上午", text: "コウノトリの郷公園", placeId: "stork" },
         { time: "午", text: "豊岡鞄／袋物街（可選）＋午餐", placeId: "bag-street" },
         { time: "午後", text: "玄武洞公園", placeId: "genbudo" },
         { time: "參考", text: "⚠️ 竹田城跡 1/4–2/28 冬季不能登城——今次唔安排", placeId: "takeda" },
-        { time: "晚", text: "Airbnb 豊岡／城崎（短名單・未訂）", placeId: null }
+        { time: "晚", text: "Airbnb 豊岡／城崎（短名單・未訂｜偏好整套房＋泊車）", placeId: null }
       ],
       transport: "豊岡周邊短距離自駕；半日揀 2–3 點即可。"
     },

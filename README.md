@@ -47,8 +47,10 @@ kansai-2027-trip-guide/
 |------|------|
 | 機票 HK Express UO686/UO689 PNR **T2H9VR** | ✅ 已訂 |
 | 租車 Nissan **26102504206**（KICKS 4WD+雪胎+ETC） | ✅ 已訂（舊單 26102504145 已取消） |
-| 住宿（大阪／城崎古まん／豊岡／宮津伊根／舞鶴） | ⚠️ **短名單／TBD，未訂** |
-| 唯一溫泉旅館夜 | 1/2→2/2 城崎（建議古まん） |
+| 住宿 1/31 大阪 Airbnb **HMEFA5DBKE**（守口・千林） | ✅ 已訂 |
+| 住宿 1/2 城崎 **山本屋**（Rakuten 21315099225634） | ✅ 已訂（一泊二食・但馬牛會席） |
+| 住宿 2/2 起（豊岡／城崎 Airbnb、宮津伊根、舞鶴） | ⚠️ **短名單／TBD，未訂** |
+| 唯一溫泉旅館夜 | **1/2→2/2 晨** 城崎山本屋（已訂） |
 
 Drive：
 
@@ -72,4 +74,4 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-29 09:57（Asia/Hong_Kong）— Night-1 Osaka Airbnb booked (HMEFA5DBKE, Moriguchi/Senbayashi); other lodging still shortlist.
+2026-10-29 11:25（Asia/Hong_Kong）— Night-2 Kinosaki Yamamotoya booked (Rakuten 21315099225634); Night-1 Osaka Airbnb HMEFA5DBKE; Night 2/2+ still shortlist.
