@@ -8,10 +8,10 @@ window.TRIP = {
     subtitle: "死黨三人遊の悠閒冬之旅",
     dates: "2027-01-31（日）— 02-06（六）",
     days: 7,
-    nights: 5,
+    nights: 6,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-30 23:37",
-    note: "✅ 2/4 離開伊根後去篠山／丹波篠山（已決定・鎖定）。1/31–2/4 五晚住宿全部已訂；2/5 還車後仍自行安排。免費取消：1/31→1/26 16:00｜山本屋→1/28 23:59 JST｜2/2→1/28 15:00｜伊根約至 1/20｜OITO→1/30 15:00（當地）。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
+    updated: "2026-10-30 23:57",
+    note: "✅ 2/4 離開伊根後去篠山／丹波篠山（已決定・鎖定）。1/31–2/5 六晚住宿全部已訂。免費取消：1/31→1/26 16:00｜山本屋→1/28 23:59 JST｜2/2→1/28 15:00｜伊根約至 1/20｜OITO→1/30 15:00｜Hankyu RESPIRE→2/4 00:00（大阪時間）。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
       back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋同伴" },
@@ -128,6 +128,23 @@ window.TRIP = {
         { label: "Airbnb 訂單 HMDP9MSW5B", url: "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMDP9MSW5B", kind: "official" },
         { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a18d690b545f61e", kind: "drive" },
         { label: "丹波篠山觀光官方", url: "https://tourism.sasayama.jp/", kind: "official" },
+        { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
+      ]
+    },
+    {
+      night: "5/2",
+      placeId: "hankyu-respire-osaka",
+      name: "Hotel Hankyu RESPIRE OSAKA",
+      area: "梅田・大深町（Umeda Ofukacho）",
+      address: "大阪府大阪市北区大深町1-1／1-1 Ofukacho, Kita Ward, Osaka 530-0011",
+      confirm: "已訂 Agoda 1792170954｜Lead Sau Shun Leung｜3 成人｜12–23F Standard Triple Non-Smoking",
+      status: "booked",
+      freeCancel: "免費取消至 2/4 00:00（大阪時間）",
+      note: "CI 2/5 15:00後→CO 2/6 12:00前；高樓層特別要求；¥36,728 tax-in（或約¥38,564含5% adjustment）於 2/2 MC*0136 自動扣",
+      links: [
+        { label: "酒店官方", url: "https://www.hankyu-hotel.com/hotel/hh/respireosaka/", kind: "official" },
+        { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Hotel+Hankyu+RESPIRE+OSAKA%2C+1-1+Ofukacho%2C+Umeda%2C+Osaka%2C+Japan%2C+5300011", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a18d856c9650566", kind: "drive" },
         { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     }
@@ -508,7 +525,7 @@ window.TRIP = {
       detail: "OITO 別邸 一棟貸切宿。地址：669-2325 兵庫県丹波篠山市河原町91。城下町河原町（重伝建）內；翌日南下梅田還車約 1–1.5h。",
       history: "河原町係丹波篠山城下町妻入商家群核心，近世商家町景觀保存區。",
       origin: "伊根 CO 後 overnight 選城下町整棟——散步河原町完就近 CI，翌日還車動線順。",
-      stories: "午後河原町散步後直接 CI；晚餐可試ぼたん鍋。翌日 11:00前 CO → 梅田還車。",
+      stories: "午後河原町散步後直接 CI；晚餐可試ぼたん鍋。翌日 11:00前 CO → 梅田還車 → Hankyu RESPIRE。",
       highlights: [
         "已訂 HMDP9MSW5B｜河原町91",
         "整棟一棟貸切｜3 成人",
@@ -636,6 +653,37 @@ window.TRIP = {
     },
 
     {
+      id: "hankyu-respire-osaka",
+      name: "Hotel Hankyu RESPIRE OSAKA",
+      nameJa: "ホテル阪急レスパイア大阪",
+      day: 6,
+      lat: 34.7055,
+      lng: 135.4983, // Umeda Ofukacho 1-1 approx
+      image: "images/osaka-night.jpg",
+      tags: ["住宿", "已訂", "梅田"],
+      intro: "已訂 2/5 overnight（Agoda 1792170954）。梅田大深町1-1；還車後步行／短程可達。12–23F Standard Triple Non-Smoking；高樓層特別要求。",
+      tips: "CI 2/5 15:00後 → CO 2/6 12:00前｜Agoda 1792170954｜3 成人｜免費取消至 2/4 00:00（大阪時間）｜其後／No-show 100%｜¥36,728 tax-in（或約¥38,564含5% adjustment）於 2/2 MC*0136 自動扣。",
+      detail: "Hotel Hankyu RESPIRE OSAKA／ホテル阪急レスパイア大阪。地址：1-1 Ofukacho, Osaka 530-0011（大深町1-1，梅田）。還車後 CI；翌日 CO 後轉 KIX 夜機 UO689 20:15。",
+      history: "阪急レスパイア係梅田北端大型酒店，靠近大阪駅・グランフロント。",
+      origin: "梅田還車後 overnight——唔使當日趕機場，6/2 全日彈性再飛。",
+      stories: "15:00 還車 → 附近 CI；夜可梅田 chill／手信。翌日 12:00前 CO → KIX。",
+      highlights: [
+        "已訂 Agoda 1792170954｜大深町1-1",
+        "12–23F Standard Triple Non-Smoking｜3 成人",
+        "CI 15:00後 → CO 12:00前",
+        "免費取消至 2/4 00:00（大阪時間）",
+        "梅田・還車後就近"
+      ],
+      mapsQuery: "Hotel Hankyu RESPIRE OSAKA, 1-1 Ofukacho, Osaka",
+      links: [
+        { label: "酒店官方", url: "https://www.hankyu-hotel.com/hotel/hh/respireosaka/", kind: "official" },
+        { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Hotel+Hankyu+RESPIRE+OSAKA%2C+1-1+Ofukacho%2C+Umeda%2C+Osaka%2C+Japan%2C+5300011", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a18d856c9650566", kind: "drive" },
+        { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
+      ]
+    },
+
+    {
       id: "umeda-return",
       name: "大阪梅田還車",
       nameJa: "大阪・梅田",
@@ -644,13 +692,13 @@ window.TRIP = {
       lng: 135.4983721,
       image: "images/osaka-night.jpg",
       tags: ["交通"],
-      intro: "5/2 15:00 前梅田還 Nissan。之後無 Lodging——自行安排市區 overnight 或機場附近（未訂）。",
-      tips: "滿油還車｜確認 26102504206｜15:00 deadline｜之後行程自理（本站不寫死未訂酒店）。",
-      detail: "還車後自駕結束。6/2 晚機，5/2 夜住宿未列入短名單主軸，請自行補訂或當日決定。",
+      intro: "5/2 15:00 前梅田還 Nissan。之後步行／短程去 Hotel Hankyu RESPIRE OSAKA CI（已訂 Agoda 1792170954）。",
+      tips: "滿油還車｜確認 26102504206｜15:00 deadline｜還車後 → Hankyu RESPIRE CI（大深町1-1）。",
+      detail: "還車後自駕結束。5/2 夜住 Hankyu RESPIRE（已訂）；6/2 CO 後轉 KIX 夜機 UO689。",
       history: "梅田係大阪交通樞紐，租車還車點方便轉鐵道去機場。",
       origin: "機場取／梅田還減少最後一日趕路。",
-      stories: "還完車可以 chill——第二日先飛。",
-      highlights: ["5/2 15:00 還車", "滿油", "之後無車"],
+      stories: "還完車 → Hankyu RESPIRE CI；梅田 chill，第二日先飛。",
+      highlights: ["5/2 15:00 還車", "滿油", "之後 → Hankyu RESPIRE"],
       mapsQuery: "大阪梅田",
       links: [
         { label: "租車確認 Doc", url: "https://docs.google.com/document/d/1FdTPcwj0uKyostIZuNc2sTtQ-L-Aa9aNyIEZ-66p61E/edit?usp=drivesdk", kind: "drive" }
@@ -768,30 +816,31 @@ window.TRIP = {
     {
       id: 6,
       date: "5/2（五）",
-      title: "篠山 → 梅田還車",
-      subtitle: "自駕完結",
+      title: "篠山 → 梅田還車 → Hankyu RESPIRE",
+      subtitle: "自駕完結・梅田 overnight（已訂）",
       hero: "images/osaka-night.jpg",
-      summary: "篠山南下大阪，15:00 前梅田還車（車程約 1–1.5h，比舞鶴更鬆）。本晚無既定 lodging（自行安排）。",
+      summary: "篠山南下大阪，15:00 前梅田還車（車程約 1–1.5h）。還車後 → Hotel Hankyu RESPIRE OSAKA CI（已訂 Agoda 1792170954｜大深町1-1｜15:00後）。",
       timeline: [
         { time: "朝–午", text: "OITO 別邸 CO 11:00前 → 南下（丹南篠山口 IC→中國道）｜入油（滿油）", placeId: "oito-bettei" },
         { time: "15:00", text: "大阪梅田 Nissan 還車（確認 26102504206）", placeId: "umeda-return" },
-        { time: "晚", text: "無既定住宿｜自行安排大阪／機場附近（未訂）", placeId: null }
+        { time: "15:00後", text: "Hotel Hankyu RESPIRE OSAKA CI（已訂 Agoda 1792170954｜大深町1-1｜12–23F Triple｜高樓層特別要求）", placeId: "hankyu-respire-osaka" }
       ],
-      transport: "篠山→梅田約 1–1.5h（舞鶴若狭道→中國道／大阪）。目標 15:00 前還車；車流留 buffer——比舞鶴出發更有餘裕。"
+      transport: "篠山→梅田約 1–1.5h（舞鶴若狭道→中國道／大阪）。目標 15:00 前還車；車流留 buffer——比舞鶴出發更有餘裕。還車後酒店就近（大深町）。"
     },
     {
       id: 7,
       date: "6/2（六）",
-      title: "KIX → 香港",
+      title: "Hankyu RESPIRE CO → KIX → 香港",
       subtitle: "夜機回家",
       hero: "images/kix.jpg",
-      summary: "無自駕日。Sunny UO689 20:15 起飛，23:55 抵港。卓Sir 回程窗口同日 2/6 KIX→HKG（航班號確認中）。",
+      summary: "無自駕日。朝：Hankyu RESPIRE CO（12:00前）→ 梅田 chill／手信 → 傍晚轉 KIX。Sunny UO689 20:15 起飛，23:55 抵港。卓Sir 回程窗口同日 2/6 KIX→HKG（航班號確認中）。",
       timeline: [
-        { time: "日", text: "大阪 chill／買手信（視前晚住宿）", placeId: "umeda-return" },
+        { time: "朝", text: "Hotel Hankyu RESPIRE OSAKA CO 12:00前", placeId: "hankyu-respire-osaka" },
+        { time: "日", text: "梅田 chill／買手信（無車）", placeId: "umeda-return" },
         { time: "傍晚", text: "出發去 KIX｜預留 bag drop buffer", placeId: "kix-depart" },
         { time: "20:15", text: "UO689 起飛 → 23:55 HKG", placeId: "kix-depart" }
       ],
-      transport: "電車／空港巴士／計程車視住宿；無車。"
+      transport: "電車／空港巴士／計程車由梅田去 KIX；無車。"
     }
   ],
 
@@ -804,6 +853,7 @@ window.TRIP = {
     { id: "ine", label: "伊根" },
     { id: "sasayama", label: "篠山" },
     { id: "umeda-return", label: "梅田還車" },
+    { id: "hankyu-respire-osaka", label: "Hankyu RESPIRE" },
     { id: "kix-depart", label: "KIX" }
   ]
 };

@@ -50,8 +50,12 @@ kansai-2027-trip-guide/
 | 租車 Nissan **26102504206**（KICKS 4WD+雪胎+ETC） | ✅ 已訂（舊單 26102504145 已取消） |
 | 住宿 1/31 大阪 Airbnb **HME24S4TXJ**（西成・旭｜湯里花園町駅） | ✅ 已訂（舊 HMEFA5DBKE 守口已取消） |
 | 住宿 1/2 城崎 **山本屋**（Rakuten 21315099225634） | ✅ 已訂（一泊二食・但馬牛會席） |
-| 住宿 4/2（篠山／丹波篠山） | ⚠️ **短名單／TBD，未訂**（目的地已鎖定） |
+| 住宿 2/2 Rakuten STAY TERRACE 城崎（HM424YER9F） | ✅ 已訂 |
+| 住宿 2/3 Funaya Inn -kyo-（伊根｜Res 4030-4074-1104） | ✅ 已訂 |
+| 住宿 2/4 OITO 別邸（篠山・河原町91｜HMDP9MSW5B） | ✅ 已訂 |
+| 住宿 2/5 Hotel Hankyu RESPIRE OSAKA（Agoda **1792170954**） | ✅ 已訂 |
 | 唯一溫泉旅館夜 | **1/2→2/2 晨** 城崎山本屋（已訂） |
+| 六晚 1/31–2/5 | ✅ **全部已訂** |
 
 Drive：
 
@@ -76,4 +80,5 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-30 23:13（Asia/Hong_Kong）— Day 5 Sasayama locked after Ine; lodging 4/2 shortlist TBD; Anmake + Aoyama + botan-nabe tip; skip Noh museum.
+2026-10-30 23:57（Asia/Hong_Kong）— Book Night 5/2 Hotel Hankyu RESPIRE OSAKA (Agoda 1792170954); all six nights 1/31–2/5 booked.
+
