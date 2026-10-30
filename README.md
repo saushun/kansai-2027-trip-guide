@@ -55,7 +55,7 @@ kansai-2027-trip-guide/
 
 Drive：
 
-- 行程 Google Sheet（死黨三人遊2027｜KIX 自駕 1月31日–2月6日）：https://docs.google.com/spreadsheets/d/1FZ-SNwrWkklCaeyb8aRjFaYQx9LRLHAhoMSepzoxUDc/edit
+- 行程 Google Sheet（死黨三人遊2027｜KIX 自駕 1月31日–2月6日）：https://docs.google.com/spreadsheets/d/1hjShToJP8XwYnxck9Tzy7zn1VWIjDgzYwwArMbFWUL8/edit
 - 行程總夾：https://drive.google.com/drive/folders/1XGVNEAhR3YwMkaBcTWBInnj0TSSYQxhn
 - 機票：https://drive.google.com/drive/folders/1eT94OFD9wHAKkJTrb27f8l9-Z5zQ59Sx
 - 住宿：https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B
@@ -76,4 +76,4 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-30 22:51（Asia/Hong_Kong）— Google Sheet link refreshed to id 1FZ-SNwrWkklCaeyb8aRjFaYQx9LRLHAhoMSepzoxUDc; lodging content untouched.
+2026-10-30 22:54（Asia/Hong_Kong）— Google Sheet link refreshed to id 1hjShToJP8XwYnxck9Tzy7zn1VWIjDgzYwwArMbFWUL8; lodging content untouched.
