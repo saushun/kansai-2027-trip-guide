@@ -10,7 +10,7 @@ window.TRIP = {
     days: 7,
     nights: 6,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-30 23:57",
+    updated: "2026-10-31 00:11",
     note: "✅ 2/4 離開伊根後去篠山／丹波篠山（已決定・鎖定）。1/31–2/5 六晚住宿全部已訂。免費取消：1/31→1/26 16:00｜山本屋→1/28 23:59 JST｜2/2→1/28 15:00｜伊根約至 1/20｜OITO→1/30 15:00｜Hankyu RESPIRE→2/4 00:00（大阪時間）。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
@@ -327,24 +327,24 @@ window.TRIP = {
       ]
     },
     {
-      id: "stork",
-      name: "兵庫県立コウノトリの郷公園",
-      nameJa: "コウノトリの郷公園",
+      id: "kinosaki-ropeway",
+      name: "城崎温泉ロープウェイ",
+      nameJa: "城崎温泉ロープウェイ",
       day: 3,
-      lat: 35.5523271,
-      lng: 134.8544799,
-      image: "images/stork-park.jpg",
-      tags: ["景點", "自然"],
-      intro: "豊岡半日：東方白鸛野生復育公園。冬天觀鳥同展覽都適合慢慢行。",
-      tips: "官方 satokouen.jp｜冬季時間出發前確認｜適合家庭／悠閒節奏。",
-      detail: "郷公園係日本東方白鸛復育同野生回歸嘅重要基地，有飼育展示同田園風景。",
-      history: "日本野生コウノトリ一度滅絕；豊岡長期推動復育同放飛，成為地方象徵。",
-      origin: "選豊岡半日，係因為近城崎、又唔使長途山路。",
-      stories: "同鞄街、玄武洞可串成半日 loop，唔使貪多。",
-      highlights: ["白鸛復育", "豊岡半日", "悠閒觀鳥"],
-      mapsQuery: "コウノトリの郷公園",
+      lat: 35.625228,
+      lng: 134.803877, // 山麓駅（城崎温泉駅）near Kinosaki ropeway station
+      image: "images/kinosaki.jpg",
+      tags: ["景點", "展望"],
+      intro: "城崎溫泉街內上大師山：約 7 分鐘到山頂展望，町並み同日本海一望。2/2 朝先坐纜車，之後再去豊岡半日。",
+      tips: "官方 kinosaki-ropeway.jp｜山麓駅湯島806-1｜片道約 7 分｜冬日營業／休館出發前確認｜溫泉寺中間站可選。",
+      detail: "城崎温泉ロープウェイ連接溫泉街同大師山山頂（標高約 231m）。山頂有展望台同テラスカフェ；中間站通温泉寺。街內景點，唔使出城。",
+      history: "1962 年開通；三個駅舎為登録有形文化財。山頂景色獲米芝蓮綠色指南評價。",
+      origin: "Sunny 2026-10-31：2/2 朝加纜車，取代郷公園；之後先去豊岡鞄街／玄武洞。",
+      stories: "山本屋 CO 後行／短程去山麓駅 → 上大師山影相喝杯咖啡 → 落山再自駕豊岡半日。",
+      highlights: ["約 7 分上大師山", "町並み・日本海展望", "街內・官方 kinosaki-ropeway.jp"],
+      mapsQuery: "城崎温泉ロープウェイ",
       links: [
-        { label: "官方網站", url: "https://satokouen.jp/", kind: "official" }
+        { label: "官方網站", url: "https://kinosaki-ropeway.jp/", kind: "official" }
       ]
     },
     {
@@ -360,7 +360,7 @@ window.TRIP = {
       tips: "店休日出發前確認｜泊車睇當地指示｜唔使硬塞太多店。",
       detail: "豊岡鞄係地方品牌同產業遺產；市區有專門店同展示，適合短停。",
       history: "豊岡袋物產業歷史悠久，近代成為日本知名鞄產地之一。",
-      origin: "同郷公園、玄武洞組成豊岡半日。",
+      origin: "同玄武洞組成豊岡半日（2/2 朝先坐城崎ロープウェイ）。",
       stories: "想買實用伴手禮可以喺呢度解決，唔使留到最後一日趕。",
       highlights: ["豊岡鞄", "伴手禮", "半日串遊"],
       mapsQuery: "豊岡鞄 豊岡駅",
@@ -382,7 +382,7 @@ window.TRIP = {
       detail: "玄武洞以柱狀節理著名，係山陰側經典地質景點，適合豊岡半日順路。",
       history: "洞窟群同火山岩冷卻收縮形成；近代成為學術同觀光地。",
       origin: "近城崎，唔使繞遠路。",
-      stories: "半日三點（鸛・鞄・洞）揀 2–3 個就夠，留體力畀夜晚 Airbnb。",
+      stories: "朝纜車後半日揀鞄街＋玄武洞就夠，留體力畀夜晚 Rakuten STAY。",
       highlights: ["柱狀節理", "短停夠睇", "防滑鞋"],
       mapsQuery: "玄武洞公園",
       links: [
@@ -403,7 +403,7 @@ window.TRIP = {
       detail: "Rakuten STAY TERRACE 城崎リバーサイド【C】。近玄武洞一帶河畔，唔喺溫泉街中心——自駕方便。溫泉客房（2大床+4單人）、有廚房。",
       history: "樂天 STAY TERRACE 系列溫泉町周邊公寓式住宿，適合團體自駕 overnight。",
       origin: "山本屋後第二晚改住河畔 STAY，方便翌日轉天橋立／伊根，又近玄武洞。",
-      stories: "豊岡半日（鸛・鞄・洞）完，返上山 CI；可煮食輕鬆。翌日 CO 10:00 轉丹後。",
+      stories: "朝ロープウェイ → 豊岡（鞄・洞）完，返上山 CI；可煮食輕鬆。翌日 CO 10:00 轉丹後。",
       highlights: [
         "已訂 HM424YER9F｜上山1414-4",
         "近玄武洞／JR 玄武洞一帶",
@@ -744,18 +744,17 @@ window.TRIP = {
     {
       id: 3,
       date: "2/2（二）",
-      title: "豊岡半日",
-      subtitle: "白鸛・鞄・玄武洞",
-      hero: "images/stork-park.jpg",
-      summary: "山本屋 CO 10:00 → 豊岡半日：郷公園、鞄街、玄武洞。夜：Rakuten STAY TERRACE 城崎リバーサイド CI（已訂）。",
+      title: "ロープウェイ × 豊岡半日",
+      subtitle: "大師山展望・鞄・玄武洞",
+      hero: "images/kinosaki.jpg",
+      summary: "山本屋 CO 10:00 → 朝：城崎温泉ロープウェイ（街內上大師山・約 7 分）→ 之後豊岡半日（かばん街／玄武洞）→ 晚返城崎 Rakuten STAY TERRACE リバーサイド CI（已訂）。",
       timeline: [
-        { time: "朝", text: "山本屋 CO 10:00（含早餐）→ 豊岡方向", placeId: "yamamotoya" },
-        { time: "上午", text: "コウノトリの郷公園", placeId: "stork" },
+        { time: "朝", text: "山本屋 CO 10:00（含早餐）→ 城崎温泉ロープウェイ（湯島806-1｜約 7 分上大師山展望）", placeId: "kinosaki-ropeway" },
         { time: "午", text: "豊岡鞄／袋物街（可選）＋午餐", placeId: "bag-street" },
         { time: "午後", text: "玄武洞公園", placeId: "genbudo" },
-        { time: "晚", text: "Rakuten STAY TERRACE 城崎リバーサイド【C】CI（已訂 HM424YER9F｜上山1414-4｜15:00）", placeId: "rakuten-stay-riverside" }
+        { time: "晚", text: "返城崎｜Rakuten STAY TERRACE 城崎リバーサイド【C】CI（已訂 HM424YER9F｜上山1414-4｜15:00）", placeId: "rakuten-stay-riverside" }
       ],
-      transport: "豊岡周邊短距離自駕；半日揀 2–3 點即可。"
+      transport: "朝纜車喺溫泉街內步行／短程；之後自駕豊岡（鞄街・玄武洞）半日，傍晚返上山住宿。"
     },
     {
       id: 4,
@@ -826,7 +825,7 @@ window.TRIP = {
     { id: "kix", label: "KIX" },
     { id: "osaka-night", label: "西成・旭" },
     { id: "kinosaki", label: "城崎" },
-    { id: "stork", label: "豊岡" },
+    { id: "bag-street", label: "豊岡" },
     { id: "amanohashidate", label: "天橋立" },
     { id: "ine", label: "伊根" },
     { id: "sasayama", label: "篠山" },
