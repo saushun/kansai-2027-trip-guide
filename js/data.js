@@ -10,8 +10,8 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-30 23:05",
-    note: "1/31、1/2、2/2、2/3 住宿已訂；2/4 篠山／丹波篠山仍短名單。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
+    updated: "2026-10-30 23:13",
+    note: "✅ 2/4 離開伊根後去篠山／丹波篠山（2026-10-30 已決定・鎖定）。1/31、1/2、2/2、2/3 住宿已訂；4/2 篠山住宿仍短名單／TBD。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
       back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋同伴" },
@@ -118,10 +118,10 @@ window.TRIP = {
       placeId: "sasayama",
       name: "篠山／丹波篠山 住宿（短名單）",
       area: "篠山／丹波篠山",
-      confirm: "短名單／TBD｜城下町一帶優先",
+      confirm: "短名單／TBD｜城下町一帶優先（目的地已鎖定）",
       status: "shortlist",
       freeCancel: "未訂",
-      note: "2/4 overnight 改去篠山；翌日南下梅田還車更近（約 1–1.5h）。城下町／丹南篠山口 IC 附近優先。",
+      note: "✅ 2/4 目的地已決定：篠山／丹波篠山 overnight；住宿本身仍短名單／TBD。翌日南下梅田還車更近（約 1–1.5h）。城下町／丹南篠山口 IC 附近優先。",
       links: [
         { label: "丹波篠山觀光官方", url: "https://tourism.sasayama.jp/", kind: "official" },
         { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
@@ -215,12 +215,12 @@ window.TRIP = {
       lng: 135.2194, // known: Sasayama Castle
       image: "images/sasayama.jpg",
       tags: ["景點", "重點", "城下町"],
-      intro: "2/4 主軸：篠山城跡大書院＋城下町慢行。城下平地散步，冬日適合悠閒節奏；翌日梅田還車更近。",
+      intro: "✅ 2/4 已決定主軸：篠山城跡大書院＋城下町慢行。城下平地散步，冬日適合悠閒節奏；翌日梅田還車更近。",
       tips: "大書院 9:00–17:00（入館至 16:30）｜月曜休館（2/4 木 OK）｜大人 ¥500｜有料駐車場｜丹南篠山口 IC 約 10 分｜城下町平地，唔使行雪山",
       detail: "慶長 14 年（1609）築城；大書院平成再建，展出城史模型同史料。城下町保留古街雰囲気，適合半日慢行、影相同本地食。",
       history: "篠山城為江戶初期築城；城下町同丹波燒、黑豆等地方文化齊名。",
       origin: "伊根 CO 後南下 overnight；比舞鶴更近大阪，翌日 15:00 梅田還車 buffer 更鬆。",
-      stories: "死黨遊以輕鬆為先——城＋古街＋一間館就夠，唔好塞爆。",
+      stories: "死黨遊以輕鬆為先——城＋古街＋安間家／青山／歴史美術館揀 2 館就夠；能樂資料館休至 2 月底 skip；晚可試ぼたん鍋。",
       highlights: ["大書院＋城跡", "城下町散步", "2/4 主軸", "翌日還車更近"],
       mapsQuery: "篠山城大書院 丹波篠山",
       links: [
@@ -556,6 +556,50 @@ window.TRIP = {
         { label: "觀光官方（EN）", url: "https://tourism.sasayama.jp/visit/foreigner_post/taisho-roman-hall/", kind: "official" }
       ]
     },
+
+    {
+      id: "sasayama-anmake",
+      name: "武家屋敷安間家史料館",
+      nameJa: "武家屋敷安間家史料館",
+      day: 5,
+      lat: 35.0051,
+      lng: 135.2168, // approx 西新町95
+      image: "images/sasayama.jpg",
+      tags: ["景點", "博物館", "武家屋敷"],
+      intro: "天保期武家屋敷改史料館；室內展古文書、武具同生活器物。城下町步行圏，冬日避寒好站。",
+      tips: "西新町 95｜大人 ¥500｜可買 2／4 館共通券（大書院・歴史美術館・安間家・青山歴史村）｜月曜休館（2/4 木 OK）｜丹南篠山口 IC 約 10 分",
+      detail: "天保元年（1830）以降徒士住宅；平成全面改修後公開。市指定文化財；入母屋造茅葺曲屋，建築當初形保留良好。",
+      history: "代々安間家住宅；禄高約 12 石嘅徒士屋敷，係城下町武家居住景觀嘅代表。",
+      origin: "4 館共通券成員；大書院後室內短停／或同青山歴史村二揀一。",
+      stories: "想睇真・武家屋敷就嚟呢度；同歴史美術館唔使全去晒。",
+      highlights: ["武家屋敷", "室內避寒", "4 館共通券"],
+      mapsQuery: "武家屋敷安間家史料館 丹波篠山",
+      links: [
+        { label: "觀光官方", url: "https://tourism.sasayama.jp/anmake/", kind: "official" }
+      ]
+    },
+    {
+      id: "sasayama-aoyama",
+      name: "青山歴史村・デカンショ館",
+      nameJa: "青山歴史村",
+      day: 5,
+      lat: 35.0045,
+      lng: 135.2198, // approx 北新町48
+      image: "images/sasayama.jpg",
+      tags: ["景點", "博物館"],
+      intro: "青山家別邸桂園舎＋土蔵；藩政文書同振徳堂蔵書。館內有デカンショ館（日本遺産）。",
+      tips: "北新町 48｜大人 ¥500｜無料駐車場約 7 台｜可買 2／4 館共通券｜月曜休館（2/4 木 OK）｜大書院步行圏",
+      detail: "版籍奉還後青山家別邸公開；昭和 62 年起作歷史村。平成 10 年資產寄付市後為市立史料館。デカンショ館喺園內。",
+      history: "青山家係篠山藩主；振徳堂為藩校，蔵書同藩政文書係地方史料核心。",
+      origin: "城下町半日動線內；同安間家／歴史美術館揀 1–2 館就夠，唔好塞爆。",
+      stories: "想睇藩主系譜同デカンショ文化就入；趕時間買共通券揀重點。",
+      highlights: ["桂園舎＋土蔵", "デカンショ館", "4 館共通券"],
+      mapsQuery: "青山歴史村 丹波篠山",
+      links: [
+        { label: "觀光官方", url: "https://tourism.sasayama.jp/aoyama-rekishimura/", kind: "official" }
+      ]
+    },
+
     {
       id: "umeda-return",
       name: "大阪梅田還車",
@@ -625,15 +669,15 @@ window.TRIP = {
       title: "大阪 → 城崎溫泉・山本屋",
       subtitle: "唯一 onsen ryokan 夜（已訂）",
       hero: "images/kinosaki.jpg",
-      summary: "北上城崎。若 2/4 已專程去篠山，Day2 途中可唔停（福知山都唔硬塞）——直奔城崎最穩。山本屋 CI 15:00–18:00（已訂）。晚餐會席有但馬牛 → 午餐優先食蟹。",
+      summary: "北上城崎。2/4 已決定專程去篠山 → Day2 途中可唔停（福知山都唔硬塞）——直奔城崎最穩。山本屋 CI 15:00–18:00（已訂）。晚餐會席有但馬牛 → 午餐優先食蟹。",
       timeline: [
-        { time: "朝", text: "西成 Airbnb CO 12:00 → 高速公路北上（SA 換司機｜若 2/4 已去篠山 → 途中可唔停）", placeId: "osaka-night" },
-        { time: "途中可選", text: "⚠️ 若 2/4 已專程去篠山，Day2 途中可唔停；否則可選福知山城短停（唔硬塞）", placeId: "fukuchiyama" },
+        { time: "朝", text: "西成 Airbnb CO 12:00 → 高速公路北上（SA 換司機｜2/4 已定篠山 → 途中可唔停）", placeId: "osaka-night" },
+        { time: "途中可選", text: "⚠️ 2/4 已決定專程篠山 → Day2 途中可唔停；想停先可選福知山城短停（唔硬塞）", placeId: "fukuchiyama" },
         { time: "午", text: "抵達城崎前後｜午餐優先食蟹（晚會席有但馬牛）", placeId: "kinosaki" },
         { time: "15:00–18:00", text: "山本屋 CI（湯島643｜豪華套房半露天風呂｜訂單 21315099225634）", placeId: "yamamotoya" },
         { time: "晚", text: "一泊二食夕食：但馬牛季節會席｜外湯巡禮", placeId: "yamamotoya" }
       ],
-      transport: "大阪→城崎約 3–3.5 小時視休息｜要 ETC｜避開過多雪山路｜雪胎已備｜目標 CI 窗內抵達。2/4 已去篠山 → 途中直上最鬆。"
+      transport: "大阪→城崎約 3–3.5 小時視休息｜要 ETC｜避開過多雪山路｜雪胎已備｜目標 CI 窗內抵達。2/4 已鎖定篠山 → 途中直上最鬆。"
     },
     {
       id: 3,
@@ -673,16 +717,18 @@ window.TRIP = {
       title: "篠山／丹波篠山慢遊",
       subtitle: "城跡・城下町・室內（冬日平地）",
       hero: "images/sasayama.jpg",
-      summary: "伊根 CO 後南下篠山：城跡大書院 → 城下町／歴史美術館 → 河原町妻入商家群；可選大正ロマン館手信／Cafe。節奏放慢、城下平地；夜：篠山短名單（未訂）。",
+      summary: "✅ 已決定（2026-10-30）：離開伊根後去篠山／丹波篠山（2/4 鎖定）。城跡大書院 → 安間家／青山歴史村／歴史美術館（揀 2–3 館）→ 河原町；⚠️ 能樂資料館休館至 2 月底 skip。夜：篠山住宿短名單／TBD｜晚餐可試冬日ぼたん鍋。",
       timeline: [
-        { time: "10:00", text: "Funaya Inn -kyo- CO → 車往篠山（約 2–2.5h｜優選高速）", placeId: "funaya-inn-kyo" },
+        { time: "10:00", text: "Funaya Inn -kyo- CO → 車往篠山（約 2–2.5h｜優選高速）｜✅ 目的地已鎖定", placeId: "funaya-inn-kyo" },
         { time: "午", text: "抵達丹波篠山｜城下町午餐（黑豆／本地食｜視店休日）", placeId: "sasayama" },
         { time: "午後", text: "篠山城跡・大書院（9–17｜月休・2/4 木 OK｜大人 ¥500）", placeId: "sasayama" },
-        { time: "午後", text: "歴史美術館（室內｜9–17｜月休・2/4 木 OK）或 大正ロマン館（手信／Cafe｜10–17｜火休・木 OK）", placeId: "sasayama-rekishi" },
+        { time: "午後", text: "武家屋敷安間家史料館 或 青山歴史村（同属 4 館共通券｜室內）｜可揀歴史美術館", placeId: "sasayama-anmake" },
+        { time: "午後", text: "可選大正ロマン館（手信／Cafe｜10–17｜火休・木 OK）", placeId: "sasayama-taisho" },
         { time: "午後晚", text: "河原町妻入商家群散步（平地古街・重伝建）", placeId: "sasayama-kawaramachi" },
-        { time: "晚", text: "篠山／丹波篠山 住宿（短名單・未訂｜城下町一帶優先）", placeId: "sasayama" }
+        { time: "跳過", text: "⚠️ 能樂資料館休館至 2 月底——今次 skip，唔好專程跑", placeId: null },
+        { time: "晚", text: "篠山／丹波篠山 住宿（短名單・TBD｜城下町一帶優先）｜晚餐 tip：冬日ぼたん鍋", placeId: "sasayama" }
       ],
-      transport: "伊根→篠山約 2–2.5h：優選 京都縦貫道→綾部 JCT→舞鶴若狭道→丹南篠山口 IC→城下（約 10 分）。盡量行高速／幹線，避開丹波側山路同窄雪道。翌日篠山→梅田約 1–1.5h（比舞鶴南下更近）。雪胎已備；出發前查京都府／兵庫路況。"
+      transport: "伊根→篠山約 2–2.5h：優選 京都縦貫道→綾部 JCT→舞鶴若狭道→丹南篠山口 IC→城下（約 10 分）。盡量行高速／幹線，避開丹波側山路同窄雪道。翌日篠山→梅田約 1–1.5h（比舞鶴南下更近）。雪胎已備；出發前查京都府／兵庫路況。晚餐 tip：丹波篠山冬日名物ぼたん鍋（猪肉鍋）——城下町／宿附近揀一間就好，唔使專程跑遠。"
     },
     {
       id: 6,
