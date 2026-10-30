@@ -10,7 +10,7 @@ window.TRIP = {
     days: 7,
     nights: 6,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-30 23:57",
+    updated: "2026-10-31 00:03",
     note: "✅ 2/4 離開伊根後去篠山／丹波篠山（已決定・鎖定）。1/31–2/5 六晚住宿全部已訂。免費取消：1/31→1/26 16:00｜山本屋→1/28 23:59 JST｜2/2→1/28 15:00｜伊根約至 1/20｜OITO→1/30 15:00｜Hankyu RESPIRE→2/4 00:00（大阪時間）。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
@@ -259,13 +259,13 @@ window.TRIP = {
       lng: 135.1295995,
       image: "images/fukuchiyama-castle.jpg",
       tags: ["可選", "城堡"],
-      intro: "明智光秀關聯名城。大阪→城崎途中可停。2/4 已專程去篠山——Day2 途中可唔停（福知山都唔硬塞）。",
-      tips: "天守重建｜冬季時間出發前確認｜2/4 已去篠山 → Day2 途中可 skip｜唔塞入 2/4。",
-      detail: "福知山城天守重建後成為市中心地標，展出地方同明智光秀相關史料。可作為北上途中短停。",
+      intro: "明智光秀關聯名城。參考點：今次 2/1 北上只短停西紀 SA 後直去城崎；唔經篠山、亦唔硬塞福知山。篠山留 2/4。",
+      tips: "天守重建｜冬季時間出發前確認｜2/1 行程唔安排途經｜唔塞入 2/4 篠山日。",
+      detail: "福知山城天守重建後成為市中心地標，展出地方同明智光秀相關史料。今次行程唔安排途中停。",
       history: "城跡同明智光秀整治福知山有關；現天守為昭和後期復興。",
       origin: "位處京都北部交通節點，連接舞鶴・宮津・山陰方向。",
-      stories: "Day 2 趕時間就跳過——2/4 專程篠山，唔日歸福知山。",
-      highlights: ["光秀關聯", "途中 optional", "2/4 唔硬塞"],
+      stories: "2/1 直上城崎（西紀 SA 短停）；2/4 專程篠山——福知山今次唔安排。",
+      highlights: ["光秀關聯", "今次唔途經", "2/4 唔硬塞"],
       mapsQuery: "福知山城",
       links: [
         { label: "官方網站", url: "https://www.fukuchiyamacastle.jp/", kind: "official" }
@@ -752,15 +752,15 @@ window.TRIP = {
       title: "大阪 → 城崎溫泉・山本屋",
       subtitle: "唯一 onsen ryokan 夜（已訂）",
       hero: "images/kinosaki.jpg",
-      summary: "北上城崎。2/4 已決定專程去篠山 → Day2 途中可唔停（福知山都唔硬塞）——直奔城崎最穩。山本屋 CI 15:00–18:00（已訂）。晚餐會席有但馬牛 → 午餐優先食蟹。",
+      summary: "北上城崎：2/1 唔停篠山（篠山留 2/4／OITO）。途中只短停西紀 SA（換司機／休息），之後直去城崎。山本屋 CI 15:00–18:00（已訂）。晚餐會席有但馬牛 → 午餐優先食蟹。",
       timeline: [
-        { time: "朝", text: "西成 Airbnb CO 12:00 → 高速公路北上（SA 換司機｜2/4 已定篠山 → 途中可唔停）", placeId: "osaka-night" },
-        { time: "途中可選", text: "⚠️ 2/4 已決定專程篠山 → Day2 途中可唔停；想停先可選福知山城短停（唔硬塞）", placeId: "fukuchiyama" },
+        { time: "朝", text: "西成 Airbnb CO 12:00 → 高速公路北上（目標 CI 窗內｜2/1 唔經篠山）", placeId: "osaka-night" },
+        { time: "途中", text: "西紀 SA（Nishiki SA）短停｜換司機／休息｜之後直去城崎（2/1 唔停篠山）", placeId: null },
         { time: "午", text: "抵達城崎前後｜午餐優先食蟹（晚會席有但馬牛）", placeId: "kinosaki" },
         { time: "15:00–18:00", text: "山本屋 CI（湯島643｜豪華套房半露天風呂｜訂單 21315099225634）", placeId: "yamamotoya" },
         { time: "晚", text: "一泊二食夕食：但馬牛季節會席｜外湯巡禮", placeId: "yamamotoya" }
       ],
-      transport: "大阪→城崎約 3–3.5 小時視休息｜要 ETC｜避開過多雪山路｜雪胎已備｜目標 CI 窗內抵達。2/4 已鎖定篠山 → 途中直上最鬆。"
+      transport: "大阪→城崎約 3–3.5 小時視休息｜途中只短停西紀 SA，之後直上｜要 ETC｜避開過多雪山路｜雪胎已備｜目標 CI 窗內抵達。2/1 唔停篠山（2/4 篠山／OITO 照舊）。"
     },
     {
       id: 3,
