@@ -55,7 +55,7 @@ kansai-2027-trip-guide/
 
 Drive：
 
-- 行程 Google Sheet（死黨三人遊2027｜KIX 自駕 1月31日–2月6日）：https://docs.google.com/spreadsheets/d/1dkh9cKUjkm-LGpGdHXMQborYjqEC9-X1dYpDB_cndBY/edit
+- 行程 Google Sheet（死黨三人遊2027｜KIX 自駕 1月31日–2月6日）：https://docs.google.com/spreadsheets/d/1FZ-SNwrWkklCaeyb8aRjFaYQx9LRLHAhoMSepzoxUDc/edit
 - 行程總夾：https://drive.google.com/drive/folders/1XGVNEAhR3YwMkaBcTWBInnj0TSSYQxhn
 - 機票：https://drive.google.com/drive/folders/1eT94OFD9wHAKkJTrb27f8l9-Z5zQ59Sx
 - 住宿：https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B
@@ -76,4 +76,4 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-29 12:22（Asia/Hong_Kong）— Night-1 改訂 Airbnb HME24S4TXJ（西成区旭1-3-28｜Host シュウ｜場內免費車庫 KICKS OK｜CI 16:00→CO 12:00）；舊 HMEFA5DBKE 守口／千林已取消；Day1 meetup ~20:20 改去西成；卓Sir UO862／Sunny UO686/UO689 unchanged.
+2026-10-30 22:51（Asia/Hong_Kong）— Google Sheet link refreshed to id 1FZ-SNwrWkklCaeyb8aRjFaYQx9LRLHAhoMSepzoxUDc; lodging content untouched.

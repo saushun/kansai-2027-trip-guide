@@ -10,7 +10,7 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-30 22:49",
+    updated: "2026-10-30 22:51",
     note: "1/31、1/2、2/2、2/3 住宿已訂；2/4 舞鶴仍短名單。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
@@ -38,7 +38,7 @@ window.TRIP = {
     },
     lodgingDriveFolder: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B",
     links: [
-      { label: "行程 Google Sheet｜死黨三人遊2027", url: "https://docs.google.com/spreadsheets/d/1dkh9cKUjkm-LGpGdHXMQborYjqEC9-X1dYpDB_cndBY/edit", kind: "drive" },
+      { label: "行程 Google Sheet｜死黨三人遊2027", url: "https://docs.google.com/spreadsheets/d/1FZ-SNwrWkklCaeyb8aRjFaYQx9LRLHAhoMSepzoxUDc/edit", kind: "drive" },
       { label: "行程總 Drive 資料夾", url: "https://drive.google.com/drive/folders/1XGVNEAhR3YwMkaBcTWBInnj0TSSYQxhn", kind: "drive" },
       { label: "租車確認 Doc", url: "https://docs.google.com/document/d/1FdTPcwj0uKyostIZuNc2sTtQ-L-Aa9aNyIEZ-66p61E/edit?usp=drivesdk", kind: "drive" },
       { label: "京都海／Sea of Kyoto DMO", url: "https://www.uminokyoto.jp/", kind: "official" }
