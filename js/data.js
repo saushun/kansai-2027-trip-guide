@@ -10,7 +10,7 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-29 14:56",
+    updated: "2026-10-30 22:49",
     note: "1/31、1/2、2/2、2/3 住宿已訂；2/4 舞鶴仍短名單。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
@@ -236,13 +236,13 @@ window.TRIP = {
       lng: 135.1295995,
       image: "images/fukuchiyama-castle.jpg",
       tags: ["可選", "城堡"],
-      intro: "明智光秀關聯名城。大阪→城崎途中可停；亦可 Day 5 由舞鶴日歸配燒肉。",
-      tips: "天守重建｜冬季時間出發前確認｜同篠山擇一。",
-      detail: "福知山城天守重建後成為市中心地標，展出地方同明智光秀相關史料。可作為北上途中短停，或之後由舞鶴日歸。",
+      intro: "明智光秀關聯名城。大阪→城崎途中可停；同篠山擇一。2/4 舞鶴日唔安排福知山日歸。",
+      tips: "天守重建｜冬季時間出發前確認｜同篠山擇一｜唔塞入舞鶴日。",
+      detail: "福知山城天守重建後成為市中心地標，展出地方同明智光秀相關史料。可作為北上途中短停。",
       history: "城跡同明智光秀整治福知山有關；現天守為昭和後期復興。",
       origin: "位處京都北部交通節點，連接舞鶴・宮津・山陰方向。",
-      stories: "若 Day 2 趕時間，留低畀 Day 5 舞鶴日歸＋燒肉更輕鬆。",
-      highlights: ["光秀關聯", "途中或 Day5 日歸", "配燒肉更療癒"],
+      stories: "Day 2 趕時間就跳過——2/4 留喺舞鶴慢遊，唔日歸福知山。",
+      highlights: ["光秀關聯", "途中 optional", "同篠山擇一"],
       mapsQuery: "福知山城",
       links: [
         { label: "官方網站", url: "https://www.fukuchiyamacastle.jp/", kind: "official" }
@@ -497,17 +497,62 @@ window.TRIP = {
       lng: 135.3828528,
       image: "images/maizuru-akarenga.jpg",
       tags: ["景點", "重點"],
-      intro: "舊海軍磚造倉庫群活化成公園。紅磚建築＋海風，適合半日散步同咖啡。",
-      tips: "官方 akarenga-park.com｜可選加福知山燒肉日歸｜Airbnb ★4.96 短名單（可泊 4 車）",
-      detail: "赤れんがパーク保存明治／大正海軍相關磚造倉庫，而家係舞鶴代表性觀光區。",
+      intro: "舊海軍磚造倉庫群活化成公園。紅磚建築＋海風，適合半日散步同咖啡。2/4 主軸景點。",
+      tips: "園區設施約 9:00–17:00｜年末年始部分休館｜專用泊車有料（30分內免費，其後約 ¥100/時，24h 上限約 ¥500）｜Airbnb ★4.96 短名單（可泊 4 車）",
+      detail: "赤れんがパーク保存明治／大正海軍相關磚造倉庫，而家係舞鶴代表性觀光區。館內有赤れんが博物館（1號棟）等室內展；慢行半日剛好。",
       history: "舞鶴係舊軍港；磚造倉庫群被活化為文化觀光設施。",
-      origin: "選舞鶴 overnight，方便翌日南下梅田還車。",
-      stories: "想食燒肉可日歸福知山；唔想開車就喺園區同市區慢慢行。",
-      highlights: ["紅磚倉庫", "半日剛好", "可加福知山燒肉"],
+      origin: "選舞鶴 overnight，方便翌日南下梅田還車；2/4 全日留舞鶴，唔去福知山。",
+      stories: "伊根 CO 後慢慢返；園區＋港市就夠，唔使再日歸燒肉。",
+      highlights: ["紅磚倉庫", "半日剛好", "室內展可避寒"],
       mapsQuery: "舞鶴赤れんがパーク",
       links: [
         { label: "赤れんがパーク", url: "https://akarenga-park.com/", kind: "official" },
+        { label: "アクセス／駐車場", url: "https://akarenga-park.com/access/", kind: "official" },
         { label: "舞鶴觀光", url: "https://maizuru-kanko.net/", kind: "official" }
+      ]
+    },
+    {
+      id: "maizuru-toretore",
+      name: "舞鶴港とれとれセンター",
+      nameJa: "道の駅 舞鶴港とれとれセンター",
+      day: 5,
+      lat: 35.4501779,
+      lng: 135.3147747,
+      image: "images/maizuru-akarenga.jpg",
+      tags: ["景點", "午餐", "道の駅"],
+      intro: "日本海側大型海鮮市場＋道の駅。平地泊車、室內為主，適合冬日午餐同手信。",
+      tips: "平日 9:00–17:00／土日 9:00–18:00｜休館：水曜（2/4 木 OK）｜食事請於閉店 1 小時前入店｜無料駐車場約 200 台",
+      detail: "京都府漁協舞鶴魚市場附近嘅海鮮市場；可即場叫煮、壽司、海鮮丼，兼賣かまぼこ同北部手信。節奏放慢當午餐站最啱。",
+      history: "舞鶴港係京都北部重要漁港；道の駅結合市場同休息設施。",
+      origin: "西舞鶴平地水岸，避開雪山路；由伊根返舞鶴後第一站午餐好方便。",
+      stories: "死黨遊優先暖肚——園區前先食定海鮮。",
+      highlights: ["海鮮午餐", "平地無料泊車", "室內避寒"],
+      mapsQuery: "舞鶴港とれとれセンター",
+      links: [
+        { label: "公式（とれとれ）", url: "https://toretore.org/", kind: "official" },
+        { label: "アクセス", url: "https://toretore.org/access/", kind: "official" }
+      ]
+    },
+    {
+      id: "maizuru-hikiage",
+      name: "舞鶴引揚記念館",
+      nameJa: "舞鶴引揚記念館",
+      day: 5,
+      lat: 35.5095061,
+      lng: 135.3967091,
+      image: "images/maizuru-akarenga.jpg",
+      tags: ["景點", "可選", "博物館"],
+      intro: "戰後引揚上岸紀念館；安靜室內展，約 30–40 分。冬日好選擇。",
+      tips: "9:00–17:00（入館至 16:30）｜休館：水曜＋年末年始（2/4 木 OK）｜大人 ¥400｜無料駐車場（約 91 台）｜可同赤れんが博物館買共通券",
+      detail: "位處引揚記念公園；展出戰後自海外歸國上岸相關史料。節奏慢、人少，適合午後短停。",
+      history: "舞鶴係戰後引揚港口之一；紀念館同公園記錄相關歷史。",
+      origin: "東舞鶴平地／緩坡，唔使行雪山；赤れんがパーク車程約 10 分。",
+      stories: "園區行完想再靜啲就過嚟；唔趕就 skip 都得。",
+      highlights: ["室內安靜", "約半小時", "無料泊車"],
+      mapsQuery: "舞鶴引揚記念館",
+      links: [
+        { label: "公式・利用案内", url: "https://www.m-hikiage-museum.jp/information.html", kind: "official" },
+        { label: "アクセス", url: "https://www.m-hikiage-museum.jp/access.html", kind: "official" }
       ]
     },
     {
@@ -624,16 +669,18 @@ window.TRIP = {
     {
       id: 5,
       date: "4/2（四）",
-      title: "舞鶴赤煉瓦",
-      subtitle: "可選福知山燒肉日歸",
+      title: "舞鶴慢遊",
+      subtitle: "赤煉瓦・港市・室內（唔去福知山）",
       hero: "images/maizuru-akarenga.jpg",
-      summary: "赤れんがパーク半日；可選福知山城＋燒肉日歸。夜：舞鶴 Airbnb ★4.96 短名單。",
+      summary: "伊根 CO 後返舞鶴：とれとれ午餐 → 赤れんがパーク半日 → 可選引揚記念館。節奏放慢、留市區平地；唔去福知山、五老岳山頂路唔優先。夜：舞鶴 Airbnb ★4.96 短名單。",
       timeline: [
-        { time: "上午", text: "舞鶴赤れんがパーク", placeId: "maizuru" },
-        { time: "可選", text: "福知山城＋燒肉日歸（若 Day2 未去）", placeId: "fukuchiyama" },
+        { time: "10:00", text: "Funaya Inn -kyo- CO → 車往舞鶴（約 1–1.5h 視路）", placeId: "funaya-inn-kyo" },
+        { time: "午", text: "舞鶴港とれとれセンター（海鮮午餐／手信｜平日 9–17｜水休・2/4 木 OK）", placeId: "maizuru-toretore" },
+        { time: "午後", text: "舞鶴赤れんがパーク（園區約 9–17｜泊車有料）", placeId: "maizuru" },
+        { time: "可選", text: "引揚記念館（室內安靜約 30–40 分｜9–17｜水休・2/4 木 OK）", placeId: "maizuru-hikiage" },
         { time: "晚", text: "舞鶴 Airbnb ★4.96／可泊 4 車（短名單・未訂）", placeId: "maizuru" }
       ],
-      transport: "舞鶴市區短程；日歸福知山約 1 小時視路況。"
+      transport: "伊根→舞鶴約 1–1.5h；市區平地短程。唔去福知山。五老岳（海抜約 300m）冬雪路風險高——今次唔優先；天氣極好先考慮。"
     },
     {
       id: 6,
