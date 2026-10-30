@@ -66,7 +66,6 @@ Drive：
 
 座標：OpenStreetMap Nominatim（2026-10-28）＋個別 known/approx（見 `js/data.js`）。
 
-⚠️ 竹田城跡 1/4–2/28 冬季不能登城——行程內已標示。
 
 ---
 
