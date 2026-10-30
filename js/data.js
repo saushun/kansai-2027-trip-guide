@@ -10,8 +10,8 @@ window.TRIP = {
     days: 7,
     nights: 5,
     travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-30 23:13",
-    note: "✅ 2/4 離開伊根後去篠山／丹波篠山（2026-10-30 已決定・鎖定）。1/31、1/2、2/2、2/3 住宿已訂；4/2 篠山住宿仍短名單／TBD。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
+    updated: "2026-10-30 23:37",
+    note: "✅ 2/4 離開伊根後去篠山／丹波篠山（已決定・鎖定）。1/31–2/4 五晚住宿全部已訂；2/5 還車後仍自行安排。免費取消：1/31→1/26 16:00｜山本屋→1/28 23:59 JST｜2/2→1/28 15:00｜伊根約至 1/20｜OITO→1/30 15:00（當地）。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
       out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
       back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋同伴" },
@@ -115,16 +115,20 @@ window.TRIP = {
     },
     {
       night: "4/2",
-      placeId: "sasayama",
-      name: "篠山／丹波篠山 住宿（短名單）",
-      area: "篠山／丹波篠山",
-      confirm: "短名單／TBD｜城下町一帶優先（目的地已鎖定）",
-      status: "shortlist",
-      freeCancel: "未訂",
-      note: "✅ 2/4 目的地已決定：篠山／丹波篠山 overnight；住宿本身仍短名單／TBD。翌日南下梅田還車更近（約 1–1.5h）。城下町／丹南篠山口 IC 附近優先。",
+      placeId: "oito-bettei",
+      name: "OITO 別邸 一棟貸切宿",
+      area: "丹波篠山・河原町（城下町）",
+      address: "669-2325 兵庫県丹波篠山市河原町91",
+      confirm: "已訂 Airbnb HMDP9MSW5B｜Host Oito（OITO）｜3 成人｜整棟",
+      status: "booked",
+      freeCancel: "免費取消至 1/30 15:00（當地）",
+      note: "CI 2/4 15:00後→CO 2/5 11:00前；禁煙｜安靜 21:00–07:00｜最多5人過夜；餘款 HK$2,368.20 於 1/22 MC*0136；Host +81 70-8594-2748",
       links: [
+        { label: "Airbnb 房源", url: "https://www.airbnb.com/rooms/1348957379995460581", kind: "official" },
+        { label: "Airbnb 訂單 HMDP9MSW5B", url: "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMDP9MSW5B", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a18d690b545f61e", kind: "drive" },
         { label: "丹波篠山觀光官方", url: "https://tourism.sasayama.jp/", kind: "official" },
-        { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
+        { label: "住宿 Drive 資料夾", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
       ]
     }
   ],
@@ -491,6 +495,37 @@ window.TRIP = {
       ]
     },
     {
+      id: "oito-bettei",
+      name: "OITO 別邸 一棟貸切宿",
+      nameJa: "OITO 別邸 一棟貸切宿",
+      day: 5,
+      lat: 35.0718,
+      lng: 135.2268, // Airbnb listing / confirm pin Kawaramachi 91
+      image: "images/sasayama.jpg",
+      tags: ["住宿", "已訂", "城下町"],
+      intro: "已訂篠山 overnight（Airbnb HMDP9MSW5B）。河原町91・城下町妻入商家群一帶；整棟一棟貸切，適合死黨三人。",
+      tips: "CI 2/4 15:00後 → CO 2/5 11:00前｜確認 HMDP9MSW5B｜Host Oito +81 70-8594-2748｜禁煙｜安靜 21:00–07:00｜最多5人過夜｜免費取消至 1/30 15:00（當地）｜餘款 HK$2,368.20 於 1/22 MC*0136。",
+      detail: "OITO 別邸 一棟貸切宿。地址：669-2325 兵庫県丹波篠山市河原町91。城下町河原町（重伝建）內；翌日南下梅田還車約 1–1.5h。",
+      history: "河原町係丹波篠山城下町妻入商家群核心，近世商家町景觀保存區。",
+      origin: "伊根 CO 後 overnight 選城下町整棟——散步河原町完就近 CI，翌日還車動線順。",
+      stories: "午後河原町散步後直接 CI；晚餐可試ぼたん鍋。翌日 11:00前 CO → 梅田還車。",
+      highlights: [
+        "已訂 HMDP9MSW5B｜河原町91",
+        "整棟一棟貸切｜3 成人",
+        "CI 15:00後 → CO 11:00前",
+        "城下町・河原町重伝建一帶",
+        "免費取消至 1/30 15:00（當地）"
+      ],
+      mapsQuery: "兵庫県丹波篠山市河原町91",
+      links: [
+        { label: "Airbnb 房源", url: "https://www.airbnb.com/rooms/1348957379995460581", kind: "official" },
+        { label: "Airbnb 訂單", url: "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMDP9MSW5B", kind: "official" },
+        { label: "Google Maps 地址", url: "https://maps.google.com/maps?q=35.0718,135.2268", kind: "official" },
+        { label: "Gmail 確認", url: "https://mail.google.com/mail/u/0/#inbox/1a18d690b545f61e", kind: "drive" },
+        { label: "住宿 Drive", url: "https://drive.google.com/drive/folders/1fBUi5ffmAgIYt0OXHWBv3PEMacWGsN4B", kind: "drive" }
+      ]
+    },
+    {
       id: "sasayama-rekishi",
       name: "丹波篠山市立歴史美術館",
       nameJa: "丹波篠山市立歴史美術館",
@@ -717,7 +752,7 @@ window.TRIP = {
       title: "篠山／丹波篠山慢遊",
       subtitle: "城跡・城下町・室內（冬日平地）",
       hero: "images/sasayama.jpg",
-      summary: "✅ 已決定（2026-10-30）：離開伊根後去篠山／丹波篠山（2/4 鎖定）。城跡大書院 → 安間家／青山歴史村／歴史美術館（揀 2–3 館）→ 河原町；⚠️ 能樂資料館休館至 2 月底 skip。夜：篠山住宿短名單／TBD｜晚餐可試冬日ぼたん鍋。",
+      summary: "✅ 已決定：離開伊根後去篠山／丹波篠山（2/4 鎖定）。城跡大書院 → 安間家／青山歴史村／歴史美術館（揀 2–3 館）→ 河原町；⚠️ 能樂資料館休館至 2 月底 skip。夜：OITO 別邸（河原町91｜已訂 HMDP9MSW5B）｜晚餐可試冬日ぼたん鍋。",
       timeline: [
         { time: "10:00", text: "Funaya Inn -kyo- CO → 車往篠山（約 2–2.5h｜優選高速）｜✅ 目的地已鎖定", placeId: "funaya-inn-kyo" },
         { time: "午", text: "抵達丹波篠山｜城下町午餐（黑豆／本地食｜視店休日）", placeId: "sasayama" },
@@ -726,7 +761,7 @@ window.TRIP = {
         { time: "午後", text: "可選大正ロマン館（手信／Cafe｜10–17｜火休・木 OK）", placeId: "sasayama-taisho" },
         { time: "午後晚", text: "河原町妻入商家群散步（平地古街・重伝建）", placeId: "sasayama-kawaramachi" },
         { time: "跳過", text: "⚠️ 能樂資料館休館至 2 月底——今次 skip，唔好專程跑", placeId: null },
-        { time: "晚", text: "篠山／丹波篠山 住宿（短名單・TBD｜城下町一帶優先）｜晚餐 tip：冬日ぼたん鍋", placeId: "sasayama" }
+        { time: "晚", text: "OITO 別邸 CI（已訂 HMDP9MSW5B｜河原町91｜15:00後｜整棟）｜晚餐 tip：冬日ぼたん鍋", placeId: "oito-bettei" }
       ],
       transport: "伊根→篠山約 2–2.5h：優選 京都縦貫道→綾部 JCT→舞鶴若狭道→丹南篠山口 IC→城下（約 10 分）。盡量行高速／幹線，避開丹波側山路同窄雪道。翌日篠山→梅田約 1–1.5h（比舞鶴南下更近）。雪胎已備；出發前查京都府／兵庫路況。晚餐 tip：丹波篠山冬日名物ぼたん鍋（猪肉鍋）——城下町／宿附近揀一間就好，唔使專程跑遠。"
     },
@@ -738,7 +773,7 @@ window.TRIP = {
       hero: "images/osaka-night.jpg",
       summary: "篠山南下大阪，15:00 前梅田還車（車程約 1–1.5h，比舞鶴更鬆）。本晚無既定 lodging（自行安排）。",
       timeline: [
-        { time: "朝–午", text: "篠山出發南下（丹南篠山口 IC→中國道）｜入油（滿油）", placeId: "sasayama" },
+        { time: "朝–午", text: "OITO 別邸 CO 11:00前 → 南下（丹南篠山口 IC→中國道）｜入油（滿油）", placeId: "oito-bettei" },
         { time: "15:00", text: "大阪梅田 Nissan 還車（確認 26102504206）", placeId: "umeda-return" },
         { time: "晚", text: "無既定住宿｜自行安排大阪／機場附近（未訂）", placeId: null }
       ],
