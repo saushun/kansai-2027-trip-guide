@@ -192,7 +192,7 @@
     infoEl.innerHTML = `
       <div class="info-card reveal">
         <h3>✈️ 機票 HK Express</h3>
-        <p><strong>Sunny＋同伴</strong> PNR <code>${f.out.pnr}</code></p>
+        <p><strong>${f.out.who}</strong> PNR <code>${f.out.pnr}</code></p>
         <p><strong>去程</strong> ${f.out.date} ${f.out.code}　${f.out.from} → ${f.out.to}</p>
         <p><strong>回程</strong> ${f.back.date} ${f.back.code}　${f.back.from} → ${f.back.to}</p>
         ${cheukHtml}

@@ -9,12 +9,12 @@ window.TRIP = {
     dates: "2027-01-31（日）— 02-06（六）",
     days: 7,
     nights: 6,
-    travelers: ["Sunny", "同伴", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
-    updated: "2026-10-31 00:11",
+    travelers: ["Sunny", "Steve", "卓Sir（UO862 ~20:20 抵 KIX → 西成會合）"],
+    updated: "2026-11-01 17:25",
     note: "✅ 2/4 離開伊根後去篠山／丹波篠山（已決定・鎖定）。1/31–2/5 六晚住宿全部已訂。免費取消：1/31→1/26 16:00｜山本屋→1/28 23:59 JST｜2/2→1/28 15:00｜伊根約至 1/20｜OITO→1/30 15:00｜Hankyu RESPIRE→2/4 00:00（大阪時間）。Sunny 機票同租車已訂；卓Sir 機票 UO862 擬搭／確認中。出發前請再確認營業時間同路況。",
     flights: {
-      out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋同伴" },
-      back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋同伴" },
+      out: { code: "UO686", pnr: "T2H9VR", from: "HKG 08:30", to: "KIX 13:05", date: "31/1", who: "Sunny＋Steve" },
+      back: { code: "UO689", pnr: "T2H9VR", from: "KIX 20:15", to: "HKG 23:55", date: "6/2", who: "Sunny＋Steve" },
       cheuk: {
         status: "pending",
         label: "卓Sir 擬搭／確認中",
@@ -716,7 +716,7 @@ window.TRIP = {
       hero: "images/kix.jpg",
       summary: "Sunny UO686 13:05 抵 KIX → 15:00 Nissan 取車 → 西成 Airbnb（HME24S4TXJ・旭1-3-28）CI → 卓Sir UO862 ~20:20 抵 KIX 後晚間會合。✅ 場內免費車庫（KICKS OK）。",
       timeline: [
-        { time: "08:30", text: "Sunny＋同伴 HKG 起飛 UO686（PNR T2H9VR｜HKD 3401｜20kg）", placeId: null },
+        { time: "08:30", text: "Sunny＋Steve HKG 起飛 UO686（PNR T2H9VR｜HKD 3401｜20kg）", placeId: null },
         { time: "13:05", text: "Sunny 抵 KIX → 過關拎行李", placeId: "kix" },
         { time: "15:00", text: "Nissan 關西機場取車（確認 26102504206｜KICKS 4WD＋雪胎＋ETC）", placeId: "nissan" },
         { time: "15:45", text: "卓Sir HKG T2 起飛 UO862（擬搭／確認中｜選擇頁約 HKD 3,071｜~3h35）", placeId: null },

@@ -1,6 +1,6 @@
 # 關西 × 城崎 2027｜死黨三人遊 Travel Guide
 
-Interactive static travel guide for Sunny’s Kansai / Kinosaki winter trip（2027-01-31 → 2027-02-06）.
+Interactive static travel guide for Sunny, Steve, and 卓Sir’s Kansai / Kinosaki winter trip（2027-01-31 → 2027-02-06）.
 
 Traditional Chinese + Cantonese-friendly copy · Leaflet map · lodging shortlist · day tabs · official + Drive links.
 
@@ -45,7 +45,7 @@ kansai-2027-trip-guide/
 
 | 項目 | 狀態 |
 |------|------|
-| 機票 Sunny HK Express UO686/UO689 PNR **T2H9VR** | ✅ 已訂 |
+| 機票 Sunny＋Steve HK Express UO686/UO689 PNR **T2H9VR** | ✅ 已訂 |
 | 機票 卓Sir HK Express **UO862**（HKG 15:45→KIX 20:20；回程 2/6 窗口） | ⚠️ **擬搭／確認中**（選擇頁約 HKD 3,071） |
 | 租車 Nissan **26102504206**（KICKS 4WD+雪胎+ETC） | ✅ 已訂（舊單 26102504145 已取消） |
 | 住宿 1/31 大阪 Airbnb **HME24S4TXJ**（西成・旭｜湯里花園町駅） | ✅ 已訂（舊 HMEFA5DBKE 守口已取消） |
@@ -79,5 +79,5 @@ Map: © OpenStreetMap · Leaflet.
 
 ## Last updated
 
-2026-10-30 23:57（Asia/Hong_Kong）— Book Night 5/2 Hotel Hankyu RESPIRE OSAKA (Agoda 1792170954); all six nights 1/31–2/5 booked.
+2026-11-01 17:25（Asia/Hong_Kong）— Third traveler named Steve（Sunny confirmed 2026-11-01）. Generic companion label replaced; 卓Sir UO862 notes unchanged.
 
